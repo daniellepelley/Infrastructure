@@ -51,14 +51,6 @@ namespace Newton.Data
         #region Methods
 
         /// <summary>
-        /// Queries the base data using the passed query
-        /// </summary>
-        public IQueryable<T> Query(IQuery query)
-        {
-            return repository.Query(query);
-        }
-
-        /// <summary>
         /// Saves the entity to the base data
         /// </summary>
         public void Save(T entity)

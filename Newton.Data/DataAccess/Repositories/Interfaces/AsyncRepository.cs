@@ -5,11 +5,7 @@ using System.Text;
 
 namespace Newton.Data
 {
-    /// <summary>
-    /// An interface representing a repository
-    /// </summary>
-    public interface IRepository<T>
-        : IReadOnlyRepository<T>
+    public interface IAsyncRepository<T>
         where T : class
     {
         #region Properties
@@ -22,7 +18,7 @@ namespace Newton.Data
         /// <summary>
         /// The collection of items of type T in the base data
         /// </summary>
-        IQueryable<T> Items { get; }
+        IObservable<T> Items { get; }
 
         #endregion
 
@@ -31,17 +27,17 @@ namespace Newton.Data
         /// <summary>
         /// Saves the entity to the base data
         /// </summary>
-        void Save(T entity);
+        void SaveAsync(T entity);
 
         /// <summary>
         /// Deletes the entity from the base data
         /// </summary>
-        void Delete(T entity);
+        void DeleteAsync(T entity);
 
         /// <summary>
         /// Creates a new entity of type T in the base data
         /// </summary>
-        void Create(T entity);
+        void CreateAsync(T entity);
 
         #endregion
     }

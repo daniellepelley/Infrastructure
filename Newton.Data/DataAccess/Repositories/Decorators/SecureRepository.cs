@@ -58,18 +58,6 @@ namespace Newton.Data
         #region Methods
 
         /// <summary>
-        /// Queries the base data using the passed query
-        /// </summary>
-        public IQueryable<T> Query(IQuery query)
-        {
-            if (dataSecurityProvider.IsReadPermitted<T>())
-            {
-                return repository.Query(query);
-            }
-            return new List<T>().AsQueryable();
-        }
-
-        /// <summary>
         /// Saves the entity to the base data
         /// </summary>
         public void Save(T entity)

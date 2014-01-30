@@ -1,1 +1,2 @@
 C:\Users\Amy Le Pelley\Documents\Code\Newton Framework\trunk\Newton.UI.Mvc3\obj\Debug\Newton.UI.Mvc3.csprojResolveAssemblyReference.cache
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc3\obj\Debug\Newton.UI.Mvc3.csprojResolveAssemblyReference.cache

@@ -23,14 +23,5 @@ namespace Newton.Data
         IQueryable<T> Items { get; }
 
         #endregion
-
-        #region Methods
-
-        /// <summary>
-        /// Queries the base data using the passed query
-        /// </summary>
-        IQueryable<T> Query(IQuery query);
-
-        #endregion
     }
 }

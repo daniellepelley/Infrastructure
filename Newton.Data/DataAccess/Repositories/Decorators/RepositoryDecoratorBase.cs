@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using Newton.Validation;
+
 namespace Newton.Data
 {
     /// <summary>
-    /// A decorator around a repository that instantly resists on Save or Delete
+    /// A decorator around a repository
     /// </summary>
-    public class InstantPersistanceRepository<T>
+    public class RepositoryDecoratorBase<T>
         : IRepository<T> where T : class
     {
         #region Properties
 
-        private IRepository<T> repository;
+        protected IRepository<T> repository;
 
         /// <summary>
         /// The data context that interacts with the data source
         /// </summary>
-        public IDataContext DataContext
+        public virtual IDataContext DataContext
         {
             get { return repository.DataContext; }
         }
@@ -26,9 +28,12 @@ namespace Newton.Data
         /// <summary>
         /// The collection of items of type T in the base data
         /// </summary>
-        public IQueryable<T> Items
+        public virtual IQueryable<T> Items
         {
-            get { return repository.Items; }
+            get
+            {
+                return repository.Items;
+            }
         }
 
         #endregion
@@ -36,9 +41,9 @@ namespace Newton.Data
         #region Constructors
 
         /// <summary>
-        /// A decorator around a repository that instantly resists on Save or Delete
+        /// A decorator around a repository
         /// </summary>
-        public InstantPersistanceRepository(IRepository<T> repository)
+        public RepositoryDecoratorBase(IRepository<T> repository)
         {
             this.repository = repository;
         }
@@ -50,31 +55,26 @@ namespace Newton.Data
         /// <summary>
         /// Saves the entity to the base data
         /// </summary>
-        public void Save(T entity)
+        public virtual void Save(T entity)
         {
             repository.Save(entity);
-            DataContext.SaveChanges();
         }
 
         /// <summary>
         /// Deletes the entity from the base data
         /// </summary>
-        public void Delete(T entity)
+        public virtual void Delete(T entity)
         {
             repository.Delete(entity);
-            DataContext.SaveChanges();
         }
 
         /// <summary>
         /// Creates a new entity of type T in the base data
         /// </summary>
-        public void Create(T entity)
+        public virtual void Create(T entity)
         {
             repository.Create(entity);
-            DataContext.SaveChanges();
         }
-
-
 
         #endregion
     }

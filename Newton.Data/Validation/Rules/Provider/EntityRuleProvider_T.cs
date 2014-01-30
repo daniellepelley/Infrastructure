@@ -93,17 +93,10 @@ namespace Newton.Validation
         /// <remarks>
         /// Required testing
         /// </remarks>
-        public void Clean(T model)
+        public T Clean(T model)
         {
             foreach (var property in model.GetType().GetProperties())
             {
-                //fieldRules
-                //    .Select(f => f.Value)
-                //    .SelectMany(f => f.GetIRules())
-                //    .Where(f => f is IEnforcable);
-
-
-
                 //TODO: Requires testing
                 if (FieldRules.ContainsKey(property.Name))
                 {
@@ -129,6 +122,8 @@ namespace Newton.Validation
                     }
                 }
             }
+
+            return model;
         }
 
         #endregion

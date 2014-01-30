@@ -26,8 +26,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton.UI.Mvc3", "..\Newton
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton.Factory", "..\Newton.Factory\Newton.Factory\Newton.Factory.csproj", "{F030B141-77CF-4986-B8DD-5086F5F07622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Workflow", "..\..\..\..\..\Desktop\Pluto\Pluto v1.1\Pluto\Base\Pluto.Workflow\Pluto.Workflow.csproj", "{A09163FB-0298-4934-B20D-C1B047534398}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -204,26 +202,6 @@ Global
 		{F030B141-77CF-4986-B8DD-5086F5F07622}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F030B141-77CF-4986-B8DD-5086F5F07622}.Release|x86.ActiveCfg = Release|x86
 		{F030B141-77CF-4986-B8DD-5086F5F07622}.Release|x86.Build.0 = Release|x86
-		{A09163FB-0298-4934-B20D-C1B047534398}.All|Any CPU.ActiveCfg = All|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.All|Any CPU.Build.0 = All|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.All|Mixed Platforms.ActiveCfg = All|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.All|Mixed Platforms.Build.0 = All|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.All|x86.ActiveCfg = All|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Basic|Any CPU.ActiveCfg = Basic|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Basic|Any CPU.Build.0 = Basic|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Basic|Mixed Platforms.ActiveCfg = Basic|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Basic|Mixed Platforms.Build.0 = Basic|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Basic|x86.ActiveCfg = Basic|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{A09163FB-0298-4934-B20D-C1B047534398}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

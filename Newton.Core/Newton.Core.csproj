@@ -46,7 +46,6 @@
     <Compile Include="Dates\Business Time\BusinessDays.cs" />
     <Compile Include="Dates\Business Time\BusinessHours.cs" />
     <Compile Include="Dates\Business Time\Time.cs" />
-    <Compile Include="Dates\PeriodOfTime\PeriodOfTimeBuilder.cs" />
     <Compile Include="Dates\PeriodOfTime\IPeriodOfTime.cs" />
     <Compile Include="Dates\PeriodOfTime\PeriodOfTime.cs" />
     <Compile Include="Dates\PeriodOfTime\PeriodOfTimePlugIn.cs" />
@@ -72,7 +71,6 @@
     <Compile Include="Index\IIndexItem.cs" />
     <Compile Include="Index\Index.cs" />
     <Compile Include="Index\IndexItem.cs" />
-    <Compile Include="NotifyPropertyChanged.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Range.cs" />
     <Compile Include="Reflection\Reflection.cs" />
