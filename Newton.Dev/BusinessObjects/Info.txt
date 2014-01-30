@@ -1,0 +1,3 @@
+﻿Business Object / Business Entities
+
+These will work like existing object but will also contain tracking and rules

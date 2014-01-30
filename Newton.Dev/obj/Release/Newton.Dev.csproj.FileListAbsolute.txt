@@ -1,0 +1,10 @@
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\obj\Release\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\obj\Release\Newton.Dev.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Release\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Release\Newton.Dev.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\bin\Release\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\bin\Release\Newton.Dev.pdb

@@ -1,0 +1,30 @@
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Web.Http.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Net.Http.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Web.Http.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Net.Http.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.Core.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.Core.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Mvc\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Web.Http.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Net.Http.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Web.Http.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Net.Http.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb

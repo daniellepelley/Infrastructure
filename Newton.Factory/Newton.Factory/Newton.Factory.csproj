@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F030B141-77CF-4986-B8DD-5086F5F07622}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Newton.Factory</RootNamespace>
+    <AssemblyName>Newton.Factory</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\ConstraintDimensions\ConstraintCube.cs" />
+    <Compile Include="Model\ConstraintDimensions\UnitConstraintDimension.cs" />
+    <Compile Include="Model\ConstraintDimensions\TimespanConstraintDimension.cs" />
+    <Compile Include="Model\ConstraintDimensions\IConstraintDimension.cs" />
+    <Compile Include="Model\Constraints\Speed\SlowRunning.cs" />
+    <Compile Include="Model\Constraints\Speed\SlowRunningComposite.cs" />
+    <Compile Include="Model\Constraints\Speed\ISlowRunning.cs" />
+    <Compile Include="Model\Functions\ConstraintCalculations.cs" />
+    <Compile Include="Model\Interface\IEffeciencyDelta.cs" />
+    <Compile Include="Model\Interface\IDelta.cs" />
+    <Compile Include="Model\Rates\ITimeSpanRateMeasure.cs" />
+    <Compile Include="Model\Rates\IRateMeasure.cs" />
+    <Compile Include="Model\Rates\RateConverter.cs" />
+    <Compile Include="Model\Constraint.cs" />
+    <Compile Include="Model\Functions\Extensions.cs" />
+    <Compile Include="Model\Functions\Functions.cs" />
+    <Compile Include="Model\Rates\Rate.cs" />
+    <Compile Include="Model\Interface\ILabourPotential.cs" />
+    <Compile Include="Model\Interface\ISpeedPotential.cs" />
+    <Compile Include="Model\LineAllocation\Worker.cs" />
+    <Compile Include="Model\Constraints\Downtime\DowntimeComposite.cs" />
+    <Compile Include="Model\Constraints\Downtime\IDowntime.cs" />
+    <Compile Include="Model\Constraints\Downtime\Downtime.cs" />
+    <Compile Include="Model\Objects\IMachine.cs" />
+    <Compile Include="Model\Objects\IMachineLink.cs" />
+    <Compile Include="Model\Objects\LabourPotential.cs" />
+    <Compile Include="Model\Objects\Line.cs" />
+    <Compile Include="Model\Objects\LineOpportunity.cs" />
+    <Compile Include="Model\Objects\LinePotential.cs" />
+    <Compile Include="Model\Objects\Machine.cs" />
+    <Compile Include="Model\Objects\MachineLink.cs" />
+    <Compile Include="Model\Objects\RAG\RAGResults.cs" />
+    <Compile Include="Model\Objects\UnitConvertion\UnitConvertion.cs" />
+    <Compile Include="Model\Constraints\Waste\WasteComposite.cs" />
+    <Compile Include="Model\Constraints\Waste\IWaste.cs" />
+    <Compile Include="Model\Constraints\Waste\Waste.cs" />
+    <Compile Include="Model\StrategyObjects\LineBottleNeckSpeedCalculator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Model\Objects\Line.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Newton.Core\Newton.Core.csproj">
+      <Project>{A2AC7910-BA2C-4B09-BDB4-B5A85D825ED7}</Project>
+      <Name>Newton.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

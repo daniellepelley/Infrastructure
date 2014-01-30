@@ -1,0 +1,504 @@
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.g.cs
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.g.cs
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.cache
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.lref
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.g.cs
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.g.cs
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.xml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.baml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.baml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.baml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.baml
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.g.resources
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.Properties.Resources.resources
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.UI.Wpf\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.xml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.g.cs
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.g.cs
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.g.cs
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.g.cs
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.lref
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.baml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.baml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.baml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.baml
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.g.resources
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.Properties.Resources.resources
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.g.cs
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.g.cs
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.g.cs
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.g.cs
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf_MarkupCompile.lref
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.UI.Wpf.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataServices.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Docking.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.EntityFramework.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Expressions.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GanttView.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Gauge.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ImageEditor.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Pivot.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.PivotFieldList.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RibbonView.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Diagrams.Core.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Maths.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.PersistenceFramework.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Scheduling.Core.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\Telerik.Pivot.Core.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\CollectionView.baml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\DisplayView.baml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\EditView.baml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\CRUD\Views\ViewsDictionary.baml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.g.resources
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\Newton.UI.Wpf.Properties.Resources.resources
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Wpf\obj\Debug\GenerateResource.write.1.tlog

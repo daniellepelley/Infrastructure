@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2AC7910-BA2C-4B09-BDB4-B5A85D825ED7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Newton.Core</RootNamespace>
+    <AssemblyName>Newton.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Compiled DLLs\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Compiled DLLs\Newton.Core.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Dynamic.cs" />
+    <Compile Include="Core\IHideObjects.cs" />
+    <Compile Include="Dates\Business Time\BusinessDays.cs" />
+    <Compile Include="Dates\Business Time\BusinessHours.cs" />
+    <Compile Include="Dates\Business Time\Time.cs" />
+    <Compile Include="Dates\PeriodOfTime\PeriodOfTimeBuilder.cs" />
+    <Compile Include="Dates\PeriodOfTime\IPeriodOfTime.cs" />
+    <Compile Include="Dates\PeriodOfTime\PeriodOfTime.cs" />
+    <Compile Include="Dates\PeriodOfTime\PeriodOfTimePlugIn.cs" />
+    <Compile Include="Dates\Public Holidays\IPublicHolidays.cs" />
+    <Compile Include="Dates\Public Holidays\PublicHolidays.cs" />
+    <Compile Include="Dates\Public Holidays\Regions\UKPublicHolidays.cs" />
+    <Compile Include="Extensions\Arrays.cs" />
+    <Compile Include="Extensions\Boolean.cs" />
+    <Compile Include="Extensions\Char.cs" />
+    <Compile Include="Extensions\DataContext.cs" />
+    <Compile Include="Extensions\DataTables.cs" />
+    <Compile Include="Extensions\Dates.cs" />
+    <Compile Include="Extensions\Dictionary.cs" />
+    <Compile Include="Extensions\Expressions.cs" />
+    <Compile Include="Extensions\IEnumables.cs" />
+    <Compile Include="Extensions\Nullables.cs" />
+    <Compile Include="Extensions\Numbers.cs" />
+    <Compile Include="Extensions\Objects.cs" />
+    <Compile Include="Extensions\PeriodOfTime.cs" />
+    <Compile Include="Extensions\Statistics.cs" />
+    <Compile Include="Extensions\String.cs" />
+    <Compile Include="Extensions\TimeSpan.cs" />
+    <Compile Include="Index\IIndexItem.cs" />
+    <Compile Include="Index\Index.cs" />
+    <Compile Include="Index\IndexItem.cs" />
+    <Compile Include="NotifyPropertyChanged.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Range.cs" />
+    <Compile Include="Reflection\Reflection.cs" />
+    <Compile Include="Reporting\IReportItem.cs" />
+    <Compile Include="Reporting\Pareto.cs" />
+    <Compile Include="Reporting\PatetoDataSetItem.cs" />
+    <Compile Include="Reporting\ReportingStaticMethods.cs" />
+    <Compile Include="Scheduling\Recursion\DailyRecurrenceFrequencyItem.cs" />
+    <Compile Include="Scheduling\Recursion\Recursion.cs" />
+    <Compile Include="Scheduling\Recursion\WeeklyRecurrenceFrequencyItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

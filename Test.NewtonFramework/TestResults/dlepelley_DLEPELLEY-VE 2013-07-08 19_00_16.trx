@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9bd4830e-437a-4ac6-942a-5c72deb2b4d4" name="dlepelley@DLEPELLEY-VE 2013-07-08 19:00:16" runUser="dlepelley-VE\dlepelley" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="be81803b-c813-48ad-959c-dcd02ef2e904">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dlepelley_DLEPELLEY-VE 2013-07-08 19_00_16">
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Release\Newton.Testing.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-08T19:00:16.9263242+01:00" queuing="2013-07-08T19:00:17.0553316+01:00" start="2013-07-08T19:00:17.0733326+01:00" finish="2013-07-08T19:00:17.3823503+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PeriodOfTime_Conflicts1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="678e27d2-14d7-036f-6413-98043c45503f">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="8c9242c3-9120-410e-8a62-c0e89c4c68a0" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts1" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5e77d3c6-290f-3ec8-2d35-9d90368b387a">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="9d23c265-5c94-4bec-b242-f2dcc9adb0a9" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts3" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="87b22252-eecd-ce35-c39b-45f9c1344c40">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="777813ef-b621-4933-80f9-b853ba7f485f" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5e77d3c6-290f-3ec8-2d35-9d90368b387a" executionId="9d23c265-5c94-4bec-b242-f2dcc9adb0a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87b22252-eecd-ce35-c39b-45f9c1344c40" executionId="777813ef-b621-4933-80f9-b853ba7f485f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="678e27d2-14d7-036f-6413-98043c45503f" executionId="8c9242c3-9120-410e-8a62-c0e89c4c68a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9d23c265-5c94-4bec-b242-f2dcc9adb0a9" testId="5e77d3c6-290f-3ec8-2d35-9d90368b387a" testName="PeriodOfTime_Conflicts3" computerName="DLEPELLEY-VE" duration="00:00:00.0316773" startTime="2013-07-08T19:00:17.0973340+01:00" endTime="2013-07-08T19:00:17.3483484+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d23c265-5c94-4bec-b242-f2dcc9adb0a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at Test.NewtonFramework.PeriodOfTimeExtensionsTest.PeriodOfTime_Conflicts3() in C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\PeriodOfTimeExtensionsTest.cs:line 166
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="777813ef-b621-4933-80f9-b853ba7f485f" testId="87b22252-eecd-ce35-c39b-45f9c1344c40" testName="PeriodOfTime_Conflicts2" computerName="DLEPELLEY-VE" duration="00:00:00.0022283" startTime="2013-07-08T19:00:17.3503485+01:00" endTime="2013-07-08T19:00:17.3593490+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="777813ef-b621-4933-80f9-b853ba7f485f">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c9242c3-9120-410e-8a62-c0e89c4c68a0" testId="678e27d2-14d7-036f-6413-98043c45503f" testName="PeriodOfTime_Conflicts1" computerName="DLEPELLEY-VE" duration="00:00:00.0012918" startTime="2013-07-08T19:00:17.3613491+01:00" endTime="2013-07-08T19:00:17.3663494+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c9242c3-9120-410e-8a62-c0e89c4c68a0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

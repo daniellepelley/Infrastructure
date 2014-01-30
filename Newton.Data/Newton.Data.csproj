@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{536D6ED4-0F8F-4D89-81BF-911062F65ADF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Newton.Data</RootNamespace>
+    <AssemblyName>Newton.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Compiled DLLs\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>C:\Users\dlepelley\Documents\Newton Framework Build\Newton.Data.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\Repositories\Decorators\SoftDeleteRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\ValidationRepository.cs" />
+    <Compile Include="DataAccess\Repositories\IdentityProvider.cs" />
+    <Compile Include="DataAccess\Repositories\Query\ParametersQuery.cs" />
+    <Compile Include="Logging\ConcreteLoggers\EntityFrameworkChangeLogger.cs" />
+    <Compile Include="Logging\EntityChangeLogItem.cs" />
+    <Compile Include="Logging\ConcreteLoggers\EntityFrameworkLogger.cs" />
+    <Compile Include="Logging\Factory\EntityFrameworkLoggerFactory.cs" />
+    <Compile Include="Logging\Factory\ILoggerFactory.cs" />
+    <Compile Include="Logging\Interfaces\IEntityChangeLogger_T.cs" />
+    <Compile Include="Logging\Interfaces\IEntityChangeLogger.cs" />
+    <Compile Include="Logging\Interfaces\ILoggerFactory.cs" />
+    <Compile Include="Logging\LogStructure.cs" />
+    <Compile Include="Logging\StructuredLogger.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteFactories\XmRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteRepositories\XmlRESTRepository.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteRepositories\XmlRepository.cs" />
+    <Compile Include="DataAccess\Repositories\DataContext\XmlDataContext.cs" />
+    <Compile Include="DataAccess\Repositories\DecoratorFactories\EntityFrameworkLoggableRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\DecoratorFactories\LoggableRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\EntityFrameworkLoggableRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\SecureRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Interfaces\IReadOnlyRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Query\UriQuery.cs" />
+    <Compile Include="Serializers\IXmlRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializers\XmlRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TypeLimiter.cs" />
+    <Compile Include="Validation\Extensions\ValidationExtensions.cs" />
+    <Compile Include="Validation\Rules\Interfaces\IEnforcable.cs" />
+    <Compile Include="Validation\Rules\Presets\Generic\IsNotEqualToRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\IsNotEqualToRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\LengthRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\CasingRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\RegexRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\ContainsRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\NoSpacesRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\MaximumLengthRule.cs" />
+    <Compile Include="Validation\Rules\Presets\String\MinimumLengthRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Dates\PastRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Dates\MaximumDateRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Dates\TimeUnit.cs" />
+    <Compile Include="Validation\Rules\Presets\Dates\FutureRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Dates\MinimumDateRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Int\MaximumRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Int\MinimumRule.cs" />
+    <Compile Include="Validation\Rules\Factories\IEntityRuleProviderFactory.cs" />
+    <Compile Include="Validation\Rules\Interfaces\IRule.cs" />
+    <Compile Include="Validation\Rules\Interfaces\IRule_T.cs" />
+    <Compile Include="Validation\Rules\Concrete\Rule_T.cs" />
+    <Compile Include="Validation\Rules\Concrete\FieldRule_T.cs" />
+    <Compile Include="Validation\Rules\Interfaces\IRuleCollection.cs" />
+    <Compile Include="Validation\Rules\Concrete\RuleCollection_T.cs" />
+    <Compile Include="Validation\Rules\Presets\String\EqualsRule.cs" />
+    <Compile Include="Validation\Rules\Presets\Generic\IsRequiredRule.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\InstantPersistanceRepository.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\LoggableRepository.cs" />
+    <Compile Include="DataAccess\Repositories\DecoratorFactories\SecureRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\DataContext\EntityFrameworkDataContext.cs" />
+    <Compile Include="DataAccess\Repositories\Interfaces\IDataContext.cs" />
+    <Compile Include="DataAccess\Repositories\DataContext\LinqToSqlDataContext.cs" />
+    <Compile Include="DataAccess\Repositories\DecoratorFactories\InstantPersistanceRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\Query\PredicateQuery.cs" />
+    <Compile Include="DataAccess\Repositories\Query\IQuery.cs" />
+    <Compile Include="Logging\IEntityChangeLogItem.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteRepositories\EntityFrameworkRepository.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteRepositories\LinqToSQLRepository.cs" />
+    <Compile Include="Logging\ILoggable.cs" />
+    <Compile Include="DataAccess\Repositories\Interfaces\IRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\Interfaces\IRepository.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\ConcreteLoggers\LinqToSQLLogger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteFactories\EFRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteFactories\LinqToSQLRepositoryFactory.cs" />
+    <Compile Include="Validation\Rules\Concrete\Rules.cs" />
+    <Compile Include="Security\IDataSecurityProvider.cs" />
+    <Compile Include="Validation\Rules\Provider\IEntityRuleProvider_T.cs" />
+    <Compile Include="Validation\Rules\Provider\EntityRuleProvider_T.cs" />
+    <Compile Include="Validation\Rules\Specialist\TimeRule.cs" />
+    <Compile Include="Validation\ValidationResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

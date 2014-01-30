@@ -1,0 +1,10 @@
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Debug\Newton.Data.pdb

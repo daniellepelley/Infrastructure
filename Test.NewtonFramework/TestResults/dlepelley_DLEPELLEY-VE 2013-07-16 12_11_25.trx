@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce7e0f6e-55cb-49cd-9f3f-79a477ba0bce" name="dlepelley@DLEPELLEY-VE 2013-07-16 12:11:25" runUser="dlepelley-VE\dlepelley" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="be81803b-c813-48ad-959c-dcd02ef2e904">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dlepelley_DLEPELLEY-VE 2013-07-16 12_11_25">
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Release\Newton.Testing.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-16T12:11:25.3547691+01:00" queuing="2013-07-16T12:11:25.4467744+01:00" start="2013-07-16T12:11:25.4787762+01:00" finish="2013-07-16T12:11:26.7078465+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="91" executed="91" passed="91" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="StatisticsUpperQuartileTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5b9a0eb2-2d9b-c339-0dfa-9c6620c11d9a">
+      <Execution id="d06a3735-a5a6-4a56-a0e0-9bd5913b8e07" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsUpperQuartileTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsBiNomialTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="aa2d1779-bcda-f75a-8d16-bdf94d08d579">
+      <Execution id="4c3cf602-8a89-40a8-893d-469b66bd0471" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsBiNomialTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsCyhelskySkewTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="65415a8e-be3c-758e-b719-149bcba4e2c9">
+      <Execution id="599762c6-59be-452c-b574-6e345acd72be" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsCyhelskySkewTest1" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="88a90573-9d91-6d56-d405-b1a4b59cae2a">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="50c0de76-c27b-4aa2-85bb-d7058504bfe3" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest3" />
+    </UnitTest>
+    <UnitTest name="NextWeekDayTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="9e788524-a86b-a81d-1c2c-95f8145e6635">
+      <Owners>
+        <Owner name="NextWeekDay" />
+      </Owners>
+      <Execution id="b3f95c54-73b5-4a5c-a30c-397e67dc7b8a" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextWeekDayTest2" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest6" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="917a16f8-a54c-fc75-a8ab-786a96970297">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="efac8a84-b697-4f6c-a38f-6a5efaf4600a" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest6" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="6d5a7866-5c36-62e8-f5b0-e7ff5b58163d">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="78385d8e-9695-45a6-9b82-d8dedaaf3750" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin4" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest7" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="0c5e6fee-c745-fd9d-fd7e-0ec5bfe01a48">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="f61e4d04-72d5-4544-9199-27b7bb4838ef" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest7" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="a9a32d59-789c-911e-cf97-84f5c9fa2d42">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="332a40a9-c485-48f4-a3a6-240def8109ce" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest5" />
+    </UnitTest>
+    <UnitTest name="StatisticsChebysheffRatioTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="560a73d2-43e0-8ff5-1c67-88b6eedd67fa">
+      <Execution id="f03f0368-3370-43dc-9dd8-78d4e4ed9414" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsChebysheffRatioTest4" />
+    </UnitTest>
+    <UnitTest name="StatisticsLowerQuartileTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="ff56e7ed-42a7-219f-3d04-58682c94e982">
+      <Execution id="7062c02f-2604-4119-875f-7d13aa8442cf" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsLowerQuartileTest1" />
+    </UnitTest>
+    <UnitTest name="PopulatorTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="badc6ecf-6b81-3e7f-ba84-d18686f862dd">
+      <Execution id="569b6e8a-c8fa-4511-ac81-290083d14214" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PopulatorTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulatorTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsOutcomeTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7b0ed38c-e427-af57-36bf-200cfbdc69a6">
+      <Execution id="6089a9d9-748a-49d8-8633-80990692657b" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsOutcomeTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsMedianTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="b3e776b3-4958-6637-5ade-9799124b5d3f">
+      <Execution id="6407f513-fd06-440f-ae43-b59aea73a86e" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMedianTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="c8079e25-c7c6-990d-7896-38001fd15438">
+      <Execution id="02998b43-0326-422e-9ecd-00468fd8905e" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest5" />
+    </UnitTest>
+    <UnitTest name="StatisticsMedianTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="071af663-d213-e66f-970c-d4c59d09ad55">
+      <Execution id="82884420-b6a7-418d-ae6a-d7aff2e96d85" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMedianTest3" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="cbd2b3f8-b393-ac05-dab7-d2d379b1238f">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="345cb441-abf3-48c0-b41e-6141086d09e1" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest5" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="a0cc7ea9-230b-72cc-1449-a9ba80f3cd43">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="abe031c0-bc1f-4651-a343-59502cdf0153" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest2" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="fd1dca22-f009-4f52-8896-2103b6101337" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest3" />
+    </UnitTest>
+    <UnitTest name="StatisticsChebysheffRatioTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="f040dc20-d1ab-e501-0cdd-c49be3f67d73">
+      <Execution id="e34600bc-12e5-4b28-8108-dd5f3119ddc1" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsChebysheffRatioTest3" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="bfb077ff-3912-54fd-7926-440b1c274f56">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="a4c582e8-618b-4d6d-993b-1a0db7820816" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsLowerControl3SigmaTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="d7bdd346-512b-641b-efe6-3059f40a8cd8">
+      <Execution id="b022bedc-0ae0-49ad-8590-b7cac829fa36" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsLowerControl3SigmaTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsCyhelskySkewTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2393a279-11f3-8e59-cca3-5cccc9a7765c">
+      <Execution id="19ca8d76-0c72-4f93-9aeb-b71f6372a025" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsCyhelskySkewTest3" />
+    </UnitTest>
+    <UnitTest name="StatisticsSummaryTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="d3497b38-7973-13ae-70b4-7fb61cf6c2c3">
+      <Execution id="79a6108e-1a8e-4ad0-904c-fec4b6552ee2" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsSummaryTest1" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="a57c6349-0b10-18fb-5715-c3bcbe18dfe5">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="fe8ebd67-a109-4703-a6dd-7d1925811211" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest2" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7a365626-7ad5-153b-2b62-97fe118286e2">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="d1b6d779-4e87-40ac-98e1-17ded83a98b4" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest3" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="55e34ffc-8d53-4d72-4a0f-e04e3dea0ece">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="a0670ab0-03ff-45d8-84f7-a5028738c776" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin1" />
+    </UnitTest>
+    <UnitTest name="MortTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="6abc2210-ddd4-034b-b2ff-4ecc00cadd20">
+      <Execution id="e2e1b46b-e33e-4bd0-a154-d29ec7e56907" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MortTest1" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin6" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="ce2e18da-ada4-5653-4bbc-19f61a2a0093">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="ae37a9e2-b679-4de8-82f4-9fdce9540630" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin6" />
+    </UnitTest>
+    <UnitTest name="MockRepositoryTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="e55ca91a-0935-016d-7e90-50c5811bc777">
+      <Execution id="26bbacf1-a2c7-46fb-b80e-293ceed4af0c" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.MockRepositoryTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MockRepositoryTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsBiNomialTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5d62fbc6-ccf7-3ab9-81af-9267fe431730">
+      <Execution id="9357edae-180b-4278-9f63-f6416def4474" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsBiNomialTest2" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="3dba5f78-2094-2630-49c8-2d032a183336">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="76b09e96-e705-49c9-ae02-16f0f1834e03" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsMeanTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7f33271b-a0c2-db6c-22c1-c0ae51c9ed6d">
+      <Execution id="9cd0138d-b291-4c5a-a5c7-fa91229006c0" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMeanTest3" />
+    </UnitTest>
+    <UnitTest name="NextWeekDayTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="d93fefe1-c457-1451-1df7-29ad3bfe2c43">
+      <Owners>
+        <Owner name="NextWeekDay" />
+      </Owners>
+      <Execution id="f792b0ba-48ee-4f24-94c0-ea2b5e3aff67" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextWeekDayTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="cc749050-4588-f92d-8f56-a21b35c23f35">
+      <Execution id="63236318-c3b4-4d21-b578-0a2208cec7d2" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest6" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="19b583a8-b159-bbfa-7f80-3919fe1d8b2a">
+      <Execution id="e4535d40-2ec0-4e30-b34f-c56576490ae0" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest6" />
+    </UnitTest>
+    <UnitTest name="StatisticsUpperControl3SigmaTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5c310277-b3dc-735a-aa6d-7b768f6ee3d4">
+      <Execution id="1d98ea14-a484-4cbf-aa34-9b569b96ad0c" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsUpperControl3SigmaTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsLowerQuartileTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="99e87fb8-14a5-bdd8-804f-d36f07d49ff7">
+      <Execution id="2444839f-5fed-4328-8e40-071e01fdd180" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsLowerQuartileTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsNormalDistributionTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="926fca82-ec44-de40-9e03-39b909fa2370">
+      <Execution id="c8418f93-97aa-4a04-add4-ca88ff5c7d93" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsNormalDistributionTest1" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="154b590d-b78d-423e-899b-39ab92d5c217" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest2" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="39edef39-58c4-40cd-b365-19960a7fe514" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsEstimateStandardErrorTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="01588bce-19c0-0e14-e55b-6a9dd8607ed4">
+      <Execution id="757b7650-e9e5-41e9-8c3b-7b416c3a2dd4" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsEstimateStandardErrorTest1" />
+    </UnitTest>
+    <UnitTest name="NextWeekDayTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="4aa5e774-eddd-cb9e-186d-a74a1781c704">
+      <Owners>
+        <Owner name="NextWeekDay" />
+      </Owners>
+      <Execution id="1f962578-3443-4dd4-95dc-bbab3ca83c79" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextWeekDayTest3" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="3c0bebfd-9f0c-4134-920e-2a9b09a908a7" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest4" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5e77d3c6-290f-3ec8-2d35-9d90368b387a">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="3985a047-b322-41ac-bd66-0dbb0a9fbe7b" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts3" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="0624068f-5953-e441-9bc4-7442ebf913d6">
+      <Execution id="703f2ab9-5845-47fa-9328-075e1b1ec01d" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest3" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest8" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="ec104895-ca34-ffa8-8d5e-55b2aa909a47">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="7a8b728c-21ce-4f56-94fa-ba318718749e" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest8" />
+    </UnitTest>
+    <UnitTest name="StatisticsPascalsTriangleTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2a163207-26e6-863b-cdaf-1dfbeda55db8">
+      <Execution id="736caebd-658a-4b86-8837-ac6941ed96a2" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPascalsTriangleTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsChebysheffRatioTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="519b3c1b-8284-89ce-2bae-272f72108bd5">
+      <Execution id="a005e609-35de-4a35-acd3-996530fe16f6" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsChebysheffRatioTest2" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="87b22252-eecd-ce35-c39b-45f9c1344c40">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="6a089d95-db64-45da-9d88-0e5e301d9530" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts2" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="75e5af10-667e-13ae-2c2f-27cab9ec07e8">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="da393182-be83-4b09-ab39-9b45580b11fc" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest4" />
+    </UnitTest>
+    <UnitTest name="StatisticsVarianceTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="783adf65-abbf-bc7e-08cb-16ba15ca9520">
+      <Execution id="a7b4a24b-e8dd-4a8c-b80b-c61a4b50bbaa" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsVarianceTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsMedianTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="62301300-fec2-ac58-f02c-80e85ed9628e">
+      <Execution id="01543c38-f683-42e7-9c5c-6e3f0dfc3003" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMedianTest4" />
+    </UnitTest>
+    <UnitTest name="StatisticsExponentialDistributionTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="f5e3a2cc-0da9-a31a-3515-29c4ae3fc0ea">
+      <Execution id="db6b97da-5e6e-477a-99a4-1b1ac19c0977" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsExponentialDistributionTest1" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7580eab6-df47-91cd-84aa-9151ff237029">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="23ddb6aa-1a47-487c-b99e-3baba3f39f29" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin5" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="ec686991-ca46-84ea-5a95-13b8a4b9a741">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="a6c9bd75-8a43-4692-8a96-9c8012c66b7c" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin2" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_IsWithin3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="512f21be-da63-a90e-0af1-c5612251a66a">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="a91520a1-e93d-4e8a-a8f1-3d723a13c11b" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_IsWithin3" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="b1e90189-e524-cbcd-e82d-524f03f103bf">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="6c1cb41c-4eab-4834-9c51-42b269279d87" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts4" />
+    </UnitTest>
+    <UnitTest name="StatisticsPercentileTrimTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="041c6717-acfb-2db3-8f83-edd0f5d07dd1">
+      <Execution id="b8363efd-f789-4ccd-aacf-5280cbbc3be7" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPercentileTrimTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsOutcomeTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="82e1e8c4-8981-5c13-5b87-22183332d326">
+      <Execution id="8e8fe95e-92ec-42df-a684-e1f1961ee3bb" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsOutcomeTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsPercentileTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="0effd208-6dfe-9694-0538-a26544005ee7">
+      <Execution id="220a24b1-a4db-413a-a4b0-4cd8ccdcb9e0" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPercentileTest1" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="126e48b5-26bf-ba3d-6db5-1a6aaa46f2de">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="07ed881d-8d97-4909-a7e6-dbc492733e63" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest4" />
+    </UnitTest>
+    <UnitTest name="StatisticsUpperQuartileTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="5209e77c-05e5-d9b3-9b6a-c67aac15aba8">
+      <Execution id="4480b1c8-c67b-4d13-ab89-a904a59614a5" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsUpperQuartileTest1" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7c795e78-bf52-0f5d-ae3c-66fd7a187eb5">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="2ceaef25-f05f-4af9-9de4-16681ccfc545" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest3" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest6" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="c76f2e4e-1ac7-2769-4722-7fd5de22848d">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="5bc1a332-1714-4e36-aa0c-b7fc4a9d1e03" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest6" />
+    </UnitTest>
+    <UnitTest name="StatisticsChebysheffRatioTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="dfd7860b-9b07-5f5a-fdb0-0f043cd4f6e2">
+      <Execution id="88ac61df-070b-4f7a-ad80-918cd23f5d71" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsChebysheffRatioTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsCyhelskySkewTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="75296183-6464-e423-525e-34eeaacc24b1">
+      <Execution id="af1552a3-401c-483f-a481-38e74abbeb96" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsCyhelskySkewTest2" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="c6d89c84-c65e-9b6a-08da-73518c32a1e7">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="0fbae248-fd96-4d83-b75a-a894b4b7dcb2" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest4" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="e44675ef-0188-c035-d78e-04f0b5c81021">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="ffc3e1cc-acba-4ffe-a20f-b4186a8b9653" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts5" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest7" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="034e6bb9-3189-30ad-8c2f-aa380fec52af">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="919af4fc-6dcd-42a3-ae4c-56a7a24b5b84" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest7" />
+    </UnitTest>
+    <UnitTest name="StatisticsPercentileTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="67cfafae-6c55-2c46-5a76-f8ba73b5c9b7">
+      <Execution id="0d7690ba-f544-4530-81f8-488ead3cb7a0" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPercentileTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsMeanTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7dc5aa2a-f587-b4b0-b5dd-0232934ab41a">
+      <Execution id="96a50d39-e0aa-4f8c-920b-29733e8f462e" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMeanTest1" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="16227ad4-c30b-2d49-db60-4791526f4c97">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="74b4d924-9394-452c-925e-3987e904ffab" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest4" />
+    </UnitTest>
+    <UnitTest name="StatisticsPercentileTrimTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="dd897b1a-7a9b-5849-581c-9af754aedd88">
+      <Execution id="e6d81bfd-30b2-4028-85c8-55808882c0da" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPercentileTrimTest1" />
+    </UnitTest>
+    <UnitTest name="StatisticsMedianTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2cfe729b-358c-9bca-8ad2-bfc8aa33f6c3">
+      <Execution id="281a18c7-fc8c-4290-810e-72db544d75e2" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMedianTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsMeanTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2102b3f2-cc6b-221a-24df-8225b8862dc1">
+      <Execution id="a6c7ee1b-3cba-4c82-a85f-ab0627e3fe8e" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsMeanTest2" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="f9016b0c-a25e-7e8c-396f-241f9636de14">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="d23706ee-d67f-41ae-98c4-2ba7502f1dbe" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="9dab9a8a-c40e-6be4-1b38-db0c5db5f22d">
+      <Execution id="73143388-57dd-4ee0-b32f-b0f9298594cc" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest2" />
+    </UnitTest>
+    <UnitTest name="GetDatesTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="79c70ff4-653f-e8f3-90b9-6c9aae7e521a">
+      <Owners>
+        <Owner name="DailyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="011240f3-4ff3-4fc1-aed4-ba28a289a9f3" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.DailyRecurrenceFrequencyItemTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDatesTest1" />
+    </UnitTest>
+    <UnitTest name="PeriodOfTime_Conflicts1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="678e27d2-14d7-036f-6413-98043c45503f">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="4f632d46-d3f1-4f3f-b7cb-13fbb761df74" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts1" />
+    </UnitTest>
+    <UnitTest name="StatisticsBiNomialTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="3f466c80-e5c6-b559-cae0-d7580d9b5f8b">
+      <Execution id="51e6803f-52dc-48f1-b56a-6288f59d7356" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsBiNomialTest3" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="6c009973-0dda-f15c-2258-198461fbd19a">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="a9cd5ccf-55aa-49ce-9ba6-4142addee5ff" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest3" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="c09229bd-699d-ed66-5c96-4814e9e801a5">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="11096cad-eff8-45f1-bcf1-60f0600636af" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest1" />
+    </UnitTest>
+    <UnitTest name="MockRepositoryTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="3a9a2ce8-1433-7d7d-25b4-39d859d81dab">
+      <Execution id="c5428c0d-88d5-40f6-92ec-c48c993f9991" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.MockRepositoryTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MockRepositoryTest1" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest6" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="f2413aee-ec9a-0565-b722-d81dbcf6b26b">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="fadf5cd1-2485-4e51-95e7-f6f048161832" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest6" />
+    </UnitTest>
+    <UnitTest name="StatisticsVarianceTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7a1e47ca-ef09-abc7-6ab4-44a5f53dde98">
+      <Execution id="8047c55f-b63d-4f60-af72-cf86fa7aad0f" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsVarianceTest1" />
+    </UnitTest>
+    <UnitTest name="NextWeekDayTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="e38a49ea-16a9-a64f-61e1-8d1e29a1a2af">
+      <Owners>
+        <Owner name="NextWeekDay" />
+      </Owners>
+      <Execution id="a642351e-76b5-4a42-8c17-a95669f0b453" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextWeekDayTest4" />
+    </UnitTest>
+    <UnitTest name="AllDatesMatchingDayOfWeekTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="08302814-93ff-1710-1cdb-a13ef3cd9c75">
+      <Owners>
+        <Owner name="WeeklyRecurrenceFrequencyItem" />
+      </Owners>
+      <Execution id="79fe1275-6cc0-453d-8894-cb45236efed4" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.RecurrenceTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllDatesMatchingDayOfWeekTest1" />
+    </UnitTest>
+    <UnitTest name="AddWeekDaysTest5" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="1e1a575b-45eb-1a4f-2ea6-8af101cbb82a">
+      <Owners>
+        <Owner name="AddWeekDays" />
+      </Owners>
+      <Execution id="f5dc6300-2c9b-4f50-908e-2c15df0ead2d" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NextPreviousDateTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWeekDaysTest5" />
+    </UnitTest>
+    <UnitTest name="StatisticsExponentialDistributionTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="d4486191-a639-1630-21ce-ce79d5cb3326">
+      <Execution id="57161552-8522-465a-baf4-e483d15f2f3c" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsExponentialDistributionTest2" />
+    </UnitTest>
+    <UnitTest name="StatisticsPoissonProbabilityTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="8fd28c34-9870-309c-571a-f0ad83e3f49a">
+      <Execution id="dac17e7b-adcd-4402-964d-0532aafb0a02" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.StatisticsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatisticsPoissonProbabilityTest4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="783adf65-abbf-bc7e-08cb-16ba15ca9520" executionId="a7b4a24b-e8dd-4a8c-b80b-c61a4b50bbaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a1e47ca-ef09-abc7-6ab4-44a5f53dde98" executionId="8047c55f-b63d-4f60-af72-cf86fa7aad0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b9a0eb2-2d9b-c339-0dfa-9c6620c11d9a" executionId="d06a3735-a5a6-4a56-a0e0-9bd5913b8e07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5209e77c-05e5-d9b3-9b6a-c67aac15aba8" executionId="4480b1c8-c67b-4d13-ab89-a904a59614a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c310277-b3dc-735a-aa6d-7b768f6ee3d4" executionId="1d98ea14-a484-4cbf-aa34-9b569b96ad0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3497b38-7973-13ae-70b4-7fb61cf6c2c3" executionId="79a6108e-1a8e-4ad0-904c-fec4b6552ee2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19b583a8-b159-bbfa-7f80-3919fe1d8b2a" executionId="e4535d40-2ec0-4e30-b34f-c56576490ae0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8079e25-c7c6-990d-7896-38001fd15438" executionId="02998b43-0326-422e-9ecd-00468fd8905e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fd28c34-9870-309c-571a-f0ad83e3f49a" executionId="dac17e7b-adcd-4402-964d-0532aafb0a02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0624068f-5953-e441-9bc4-7442ebf913d6" executionId="703f2ab9-5845-47fa-9328-075e1b1ec01d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dab9a8a-c40e-6be4-1b38-db0c5db5f22d" executionId="73143388-57dd-4ee0-b32f-b0f9298594cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc749050-4588-f92d-8f56-a21b35c23f35" executionId="63236318-c3b4-4d21-b578-0a2208cec7d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="041c6717-acfb-2db3-8f83-edd0f5d07dd1" executionId="b8363efd-f789-4ccd-aacf-5280cbbc3be7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd897b1a-7a9b-5849-581c-9af754aedd88" executionId="e6d81bfd-30b2-4028-85c8-55808882c0da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67cfafae-6c55-2c46-5a76-f8ba73b5c9b7" executionId="0d7690ba-f544-4530-81f8-488ead3cb7a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0effd208-6dfe-9694-0538-a26544005ee7" executionId="220a24b1-a4db-413a-a4b0-4cd8ccdcb9e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a163207-26e6-863b-cdaf-1dfbeda55db8" executionId="736caebd-658a-4b86-8837-ac6941ed96a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b0ed38c-e427-af57-36bf-200cfbdc69a6" executionId="6089a9d9-748a-49d8-8633-80990692657b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82e1e8c4-8981-5c13-5b87-22183332d326" executionId="8e8fe95e-92ec-42df-a684-e1f1961ee3bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="926fca82-ec44-de40-9e03-39b909fa2370" executionId="c8418f93-97aa-4a04-add4-ca88ff5c7d93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62301300-fec2-ac58-f02c-80e85ed9628e" executionId="01543c38-f683-42e7-9c5c-6e3f0dfc3003" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="071af663-d213-e66f-970c-d4c59d09ad55" executionId="82884420-b6a7-418d-ae6a-d7aff2e96d85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cfe729b-358c-9bca-8ad2-bfc8aa33f6c3" executionId="281a18c7-fc8c-4290-810e-72db544d75e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3e776b3-4958-6637-5ade-9799124b5d3f" executionId="6407f513-fd06-440f-ae43-b59aea73a86e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f33271b-a0c2-db6c-22c1-c0ae51c9ed6d" executionId="9cd0138d-b291-4c5a-a5c7-fa91229006c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2102b3f2-cc6b-221a-24df-8225b8862dc1" executionId="a6c7ee1b-3cba-4c82-a85f-ab0627e3fe8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dc5aa2a-f587-b4b0-b5dd-0232934ab41a" executionId="96a50d39-e0aa-4f8c-920b-29733e8f462e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99e87fb8-14a5-bdd8-804f-d36f07d49ff7" executionId="2444839f-5fed-4328-8e40-071e01fdd180" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff56e7ed-42a7-219f-3d04-58682c94e982" executionId="7062c02f-2604-4119-875f-7d13aa8442cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7bdd346-512b-641b-efe6-3059f40a8cd8" executionId="b022bedc-0ae0-49ad-8590-b7cac829fa36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4486191-a639-1630-21ce-ce79d5cb3326" executionId="57161552-8522-465a-baf4-e483d15f2f3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e3a2cc-0da9-a31a-3515-29c4ae3fc0ea" executionId="db6b97da-5e6e-477a-99a4-1b1ac19c0977" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01588bce-19c0-0e14-e55b-6a9dd8607ed4" executionId="757b7650-e9e5-41e9-8c3b-7b416c3a2dd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2393a279-11f3-8e59-cca3-5cccc9a7765c" executionId="19ca8d76-0c72-4f93-9aeb-b71f6372a025" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75296183-6464-e423-525e-34eeaacc24b1" executionId="af1552a3-401c-483f-a481-38e74abbeb96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65415a8e-be3c-758e-b719-149bcba4e2c9" executionId="599762c6-59be-452c-b574-6e345acd72be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="560a73d2-43e0-8ff5-1c67-88b6eedd67fa" executionId="f03f0368-3370-43dc-9dd8-78d4e4ed9414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f040dc20-d1ab-e501-0cdd-c49be3f67d73" executionId="e34600bc-12e5-4b28-8108-dd5f3119ddc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="519b3c1b-8284-89ce-2bae-272f72108bd5" executionId="a005e609-35de-4a35-acd3-996530fe16f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfd7860b-9b07-5f5a-fdb0-0f043cd4f6e2" executionId="88ac61df-070b-4f7a-ad80-918cd23f5d71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f466c80-e5c6-b559-cae0-d7580d9b5f8b" executionId="51e6803f-52dc-48f1-b56a-6288f59d7356" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d62fbc6-ccf7-3ab9-81af-9267fe431730" executionId="9357edae-180b-4278-9f63-f6416def4474" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa2d1779-bcda-f75a-8d16-bdf94d08d579" executionId="4c3cf602-8a89-40a8-893d-469b66bd0471" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="badc6ecf-6b81-3e7f-ba84-d18686f862dd" executionId="569b6e8a-c8fa-4511-ac81-290083d14214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6abc2210-ddd4-034b-b2ff-4ecc00cadd20" executionId="e2e1b46b-e33e-4bd0-a154-d29ec7e56907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e55ca91a-0935-016d-7e90-50c5811bc777" executionId="26bbacf1-a2c7-46fb-b80e-293ceed4af0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a9a2ce8-1433-7d7d-25b4-39d859d81dab" executionId="c5428c0d-88d5-40f6-92ec-c48c993f9991" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2413aee-ec9a-0565-b722-d81dbcf6b26b" executionId="fadf5cd1-2485-4e51-95e7-f6f048161832" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e1a575b-45eb-1a4f-2ea6-8af101cbb82a" executionId="f5dc6300-2c9b-4f50-908e-2c15df0ead2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16227ad4-c30b-2d49-db60-4791526f4c97" executionId="74b4d924-9394-452c-925e-3987e904ffab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c009973-0dda-f15c-2258-198461fbd19a" executionId="a9cd5ccf-55aa-49ce-9ba6-4142addee5ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0cc7ea9-230b-72cc-1449-a9ba80f3cd43" executionId="abe031c0-bc1f-4651-a343-59502cdf0153" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfb077ff-3912-54fd-7926-440b1c274f56" executionId="a4c582e8-618b-4d6d-993b-1a0db7820816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec104895-ca34-ffa8-8d5e-55b2aa909a47" executionId="7a8b728c-21ce-4f56-94fa-ba318718749e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c5e6fee-c745-fd9d-fd7e-0ec5bfe01a48" executionId="f61e4d04-72d5-4544-9199-27b7bb4838ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c76f2e4e-1ac7-2769-4722-7fd5de22848d" executionId="5bc1a332-1714-4e36-aa0c-b7fc4a9d1e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbd2b3f8-b393-ac05-dab7-d2d379b1238f" executionId="345cb441-abf3-48c0-b41e-6141086d09e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6d89c84-c65e-9b6a-08da-73518c32a1e7" executionId="0fbae248-fd96-4d83-b75a-a894b4b7dcb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88a90573-9d91-6d56-d405-b1a4b59cae2a" executionId="50c0de76-c27b-4aa2-85bb-d7058504bfe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dba5f78-2094-2630-49c8-2d032a183336" executionId="76b09e96-e705-49c9-ae02-16f0f1834e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79c70ff4-653f-e8f3-90b9-6c9aae7e521a" executionId="011240f3-4ff3-4fc1-aed4-ba28a289a9f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75e5af10-667e-13ae-2c2f-27cab9ec07e8" executionId="da393182-be83-4b09-ab39-9b45580b11fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a365626-7ad5-153b-2b62-97fe118286e2" executionId="d1b6d779-4e87-40ac-98e1-17ded83a98b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9016b0c-a25e-7e8c-396f-241f9636de14" executionId="d23706ee-d67f-41ae-98c4-2ba7502f1dbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe" executionId="39edef39-58c4-40cd-b365-19960a7fe514" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a" executionId="3c0bebfd-9f0c-4134-920e-2a9b09a908a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0" executionId="fd1dca22-f009-4f52-8896-2103b6101337" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e" executionId="154b590d-b78d-423e-899b-39ab92d5c217" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c09229bd-699d-ed66-5c96-4814e9e801a5" executionId="11096cad-eff8-45f1-bcf1-60f0600636af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e38a49ea-16a9-a64f-61e1-8d1e29a1a2af" executionId="a642351e-76b5-4a42-8c17-a95669f0b453" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4aa5e774-eddd-cb9e-186d-a74a1781c704" executionId="1f962578-3443-4dd4-95dc-bbab3ca83c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e788524-a86b-a81d-1c2c-95f8145e6635" executionId="b3f95c54-73b5-4a5c-a30c-397e67dc7b8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d93fefe1-c457-1451-1df7-29ad3bfe2c43" executionId="f792b0ba-48ee-4f24-94c0-ea2b5e3aff67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce2e18da-ada4-5653-4bbc-19f61a2a0093" executionId="ae37a9e2-b679-4de8-82f4-9fdce9540630" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7580eab6-df47-91cd-84aa-9151ff237029" executionId="23ddb6aa-1a47-487c-b99e-3baba3f39f29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5a7866-5c36-62e8-f5b0-e7ff5b58163d" executionId="78385d8e-9695-45a6-9b82-d8dedaaf3750" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="512f21be-da63-a90e-0af1-c5612251a66a" executionId="a91520a1-e93d-4e8a-a8f1-3d723a13c11b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec686991-ca46-84ea-5a95-13b8a4b9a741" executionId="a6c9bd75-8a43-4692-8a96-9c8012c66b7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55e34ffc-8d53-4d72-4a0f-e04e3dea0ece" executionId="a0670ab0-03ff-45d8-84f7-a5028738c776" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e44675ef-0188-c035-d78e-04f0b5c81021" executionId="ffc3e1cc-acba-4ffe-a20f-b4186a8b9653" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1e90189-e524-cbcd-e82d-524f03f103bf" executionId="6c1cb41c-4eab-4834-9c51-42b269279d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e77d3c6-290f-3ec8-2d35-9d90368b387a" executionId="3985a047-b322-41ac-bd66-0dbb0a9fbe7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87b22252-eecd-ce35-c39b-45f9c1344c40" executionId="6a089d95-db64-45da-9d88-0e5e301d9530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="678e27d2-14d7-036f-6413-98043c45503f" executionId="4f632d46-d3f1-4f3f-b7cb-13fbb761df74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="034e6bb9-3189-30ad-8c2f-aa380fec52af" executionId="919af4fc-6dcd-42a3-ae4c-56a7a24b5b84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="917a16f8-a54c-fc75-a8ab-786a96970297" executionId="efac8a84-b697-4f6c-a38f-6a5efaf4600a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9a32d59-789c-911e-cf97-84f5c9fa2d42" executionId="332a40a9-c485-48f4-a3a6-240def8109ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="126e48b5-26bf-ba3d-6db5-1a6aaa46f2de" executionId="07ed881d-8d97-4909-a7e6-dbc492733e63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c795e78-bf52-0f5d-ae3c-66fd7a187eb5" executionId="2ceaef25-f05f-4af9-9de4-16681ccfc545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a57c6349-0b10-18fb-5715-c3bcbe18dfe5" executionId="fe8ebd67-a109-4703-a6dd-7d1925811211" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08302814-93ff-1710-1cdb-a13ef3cd9c75" executionId="79fe1275-6cc0-453d-8894-cb45236efed4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a7b4a24b-e8dd-4a8c-b80b-c61a4b50bbaa" testId="783adf65-abbf-bc7e-08cb-16ba15ca9520" testName="StatisticsVarianceTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0141236" startTime="2013-07-16T12:11:25.4827764+01:00" endTime="2013-07-16T12:11:25.7087894+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7b4a24b-e8dd-4a8c-b80b-c61a4b50bbaa">
+    </UnitTestResult>
+    <UnitTestResult executionId="8047c55f-b63d-4f60-af72-cf86fa7aad0f" testId="7a1e47ca-ef09-abc7-6ab4-44a5f53dde98" testName="StatisticsVarianceTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0006149" startTime="2013-07-16T12:11:25.7137897+01:00" endTime="2013-07-16T12:11:25.7247903+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8047c55f-b63d-4f60-af72-cf86fa7aad0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="d06a3735-a5a6-4a56-a0e0-9bd5913b8e07" testId="5b9a0eb2-2d9b-c339-0dfa-9c6620c11d9a" testName="StatisticsUpperQuartileTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0018306" startTime="2013-07-16T12:11:25.7277905+01:00" endTime="2013-07-16T12:11:25.7327907+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d06a3735-a5a6-4a56-a0e0-9bd5913b8e07">
+    </UnitTestResult>
+    <UnitTestResult executionId="4480b1c8-c67b-4d13-ab89-a904a59614a5" testId="5209e77c-05e5-d9b3-9b6a-c67aac15aba8" testName="StatisticsUpperQuartileTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003228" startTime="2013-07-16T12:11:25.7367910+01:00" endTime="2013-07-16T12:11:25.7397911+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4480b1c8-c67b-4d13-ab89-a904a59614a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d98ea14-a484-4cbf-aa34-9b569b96ad0c" testId="5c310277-b3dc-735a-aa6d-7b768f6ee3d4" testName="StatisticsUpperControl3SigmaTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0005610" startTime="2013-07-16T12:11:25.7407912+01:00" endTime="2013-07-16T12:11:25.7477916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d98ea14-a484-4cbf-aa34-9b569b96ad0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="79a6108e-1a8e-4ad0-904c-fec4b6552ee2" testId="d3497b38-7973-13ae-70b4-7fb61cf6c2c3" testName="StatisticsSummaryTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0078131" startTime="2013-07-16T12:11:25.7487917+01:00" endTime="2013-07-16T12:11:25.7627925+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79a6108e-1a8e-4ad0-904c-fec4b6552ee2">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4535d40-2ec0-4e30-b34f-c56576490ae0" testId="19b583a8-b159-bbfa-7f80-3919fe1d8b2a" testName="StatisticsPoissonProbabilityTest6" computerName="DLEPELLEY-VE" duration="00:00:00.0012144" startTime="2013-07-16T12:11:25.7647926+01:00" endTime="2013-07-16T12:11:25.7707929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4535d40-2ec0-4e30-b34f-c56576490ae0">
+    </UnitTestResult>
+    <UnitTestResult executionId="02998b43-0326-422e-9ecd-00468fd8905e" testId="c8079e25-c7c6-990d-7896-38001fd15438" testName="StatisticsPoissonProbabilityTest5" computerName="DLEPELLEY-VE" duration="00:00:00.0003408" startTime="2013-07-16T12:11:25.7857938+01:00" endTime="2013-07-16T12:11:25.7897940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02998b43-0326-422e-9ecd-00468fd8905e">
+    </UnitTestResult>
+    <UnitTestResult executionId="dac17e7b-adcd-4402-964d-0532aafb0a02" testId="8fd28c34-9870-309c-571a-f0ad83e3f49a" testName="StatisticsPoissonProbabilityTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0002963" startTime="2013-07-16T12:11:25.7927942+01:00" endTime="2013-07-16T12:11:25.7967944+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dac17e7b-adcd-4402-964d-0532aafb0a02">
+    </UnitTestResult>
+    <UnitTestResult executionId="703f2ab9-5845-47fa-9328-075e1b1ec01d" testId="0624068f-5953-e441-9bc4-7442ebf913d6" testName="StatisticsPoissonProbabilityTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0002270" startTime="2013-07-16T12:11:25.8097951+01:00" endTime="2013-07-16T12:11:25.8137954+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="703f2ab9-5845-47fa-9328-075e1b1ec01d">
+    </UnitTestResult>
+    <UnitTestResult executionId="73143388-57dd-4ee0-b32f-b0f9298594cc" testId="9dab9a8a-c40e-6be4-1b38-db0c5db5f22d" testName="StatisticsPoissonProbabilityTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0003185" startTime="2013-07-16T12:11:25.8167955+01:00" endTime="2013-07-16T12:11:25.8277962+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73143388-57dd-4ee0-b32f-b0f9298594cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="63236318-c3b4-4d21-b578-0a2208cec7d2" testId="cc749050-4588-f92d-8f56-a21b35c23f35" testName="StatisticsPoissonProbabilityTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0008963" startTime="2013-07-16T12:11:25.8297963+01:00" endTime="2013-07-16T12:11:25.8387968+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63236318-c3b4-4d21-b578-0a2208cec7d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8363efd-f789-4ccd-aacf-5280cbbc3be7" testId="041c6717-acfb-2db3-8f83-edd0f5d07dd1" testName="StatisticsPercentileTrimTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0015142" startTime="2013-07-16T12:11:25.8507975+01:00" endTime="2013-07-16T12:11:25.8577979+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8363efd-f789-4ccd-aacf-5280cbbc3be7">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6d81bfd-30b2-4028-85c8-55808882c0da" testId="dd897b1a-7a9b-5849-581c-9af754aedd88" testName="StatisticsPercentileTrimTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003835" startTime="2013-07-16T12:11:25.8607981+01:00" endTime="2013-07-16T12:11:25.8647983+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6d81bfd-30b2-4028-85c8-55808882c0da">
+    </UnitTestResult>
+    <UnitTestResult executionId="0d7690ba-f544-4530-81f8-488ead3cb7a0" testId="67cfafae-6c55-2c46-5a76-f8ba73b5c9b7" testName="StatisticsPercentileTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0002741" startTime="2013-07-16T12:11:25.8707986+01:00" endTime="2013-07-16T12:11:25.8787991+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d7690ba-f544-4530-81f8-488ead3cb7a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="220a24b1-a4db-413a-a4b0-4cd8ccdcb9e0" testId="0effd208-6dfe-9694-0538-a26544005ee7" testName="StatisticsPercentileTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003421" startTime="2013-07-16T12:11:25.8807992+01:00" endTime="2013-07-16T12:11:25.8857995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="220a24b1-a4db-413a-a4b0-4cd8ccdcb9e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="736caebd-658a-4b86-8837-ac6941ed96a2" testId="2a163207-26e6-863b-cdaf-1dfbeda55db8" testName="StatisticsPascalsTriangleTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0040201" startTime="2013-07-16T12:11:25.8867995+01:00" endTime="2013-07-16T12:11:25.8948000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="736caebd-658a-4b86-8837-ac6941ed96a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="6089a9d9-748a-49d8-8633-80990692657b" testId="7b0ed38c-e427-af57-36bf-200cfbdc69a6" testName="StatisticsOutcomeTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0004070" startTime="2013-07-16T12:11:25.8958001+01:00" endTime="2013-07-16T12:11:25.8998003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6089a9d9-748a-49d8-8633-80990692657b">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e8fe95e-92ec-42df-a684-e1f1961ee3bb" testId="82e1e8c4-8981-5c13-5b87-22183332d326" testName="StatisticsOutcomeTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0002916" startTime="2013-07-16T12:11:25.9008004+01:00" endTime="2013-07-16T12:11:25.9068007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e8fe95e-92ec-42df-a684-e1f1961ee3bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8418f93-97aa-4a04-add4-ca88ff5c7d93" testId="926fca82-ec44-de40-9e03-39b909fa2370" testName="StatisticsNormalDistributionTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0004126" startTime="2013-07-16T12:11:25.9088008+01:00" endTime="2013-07-16T12:11:25.9138011+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8418f93-97aa-4a04-add4-ca88ff5c7d93">
+    </UnitTestResult>
+    <UnitTestResult executionId="01543c38-f683-42e7-9c5c-6e3f0dfc3003" testId="62301300-fec2-ac58-f02c-80e85ed9628e" testName="StatisticsMedianTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0008873" startTime="2013-07-16T12:11:25.9168013+01:00" endTime="2013-07-16T12:11:25.9208015+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01543c38-f683-42e7-9c5c-6e3f0dfc3003">
+    </UnitTestResult>
+    <UnitTestResult executionId="82884420-b6a7-418d-ae6a-d7aff2e96d85" testId="071af663-d213-e66f-970c-d4c59d09ad55" testName="StatisticsMedianTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0003198" startTime="2013-07-16T12:11:25.9238017+01:00" endTime="2013-07-16T12:11:25.9288020+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82884420-b6a7-418d-ae6a-d7aff2e96d85">
+    </UnitTestResult>
+    <UnitTestResult executionId="281a18c7-fc8c-4290-810e-72db544d75e2" testId="2cfe729b-358c-9bca-8ad2-bfc8aa33f6c3" testName="StatisticsMedianTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0004716" startTime="2013-07-16T12:11:25.9298020+01:00" endTime="2013-07-16T12:11:25.9388025+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="281a18c7-fc8c-4290-810e-72db544d75e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="6407f513-fd06-440f-ae43-b59aea73a86e" testId="b3e776b3-4958-6637-5ade-9799124b5d3f" testName="StatisticsMedianTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0004519" startTime="2013-07-16T12:11:25.9518033+01:00" endTime="2013-07-16T12:11:25.9598037+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6407f513-fd06-440f-ae43-b59aea73a86e">
+    </UnitTestResult>
+    <UnitTestResult executionId="9cd0138d-b291-4c5a-a5c7-fa91229006c0" testId="7f33271b-a0c2-db6c-22c1-c0ae51c9ed6d" testName="StatisticsMeanTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0005640" startTime="2013-07-16T12:11:25.9708044+01:00" endTime="2013-07-16T12:11:25.9748046+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cd0138d-b291-4c5a-a5c7-fa91229006c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6c7ee1b-3cba-4c82-a85f-ab0627e3fe8e" testId="2102b3f2-cc6b-221a-24df-8225b8862dc1" testName="StatisticsMeanTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0003703" startTime="2013-07-16T12:11:25.9838051+01:00" endTime="2013-07-16T12:11:25.9898054+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6c7ee1b-3cba-4c82-a85f-ab0627e3fe8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="96a50d39-e0aa-4f8c-920b-29733e8f462e" testId="7dc5aa2a-f587-b4b0-b5dd-0232934ab41a" testName="StatisticsMeanTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003681" startTime="2013-07-16T12:11:25.9938057+01:00" endTime="2013-07-16T12:11:25.9968058+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96a50d39-e0aa-4f8c-920b-29733e8f462e">
+    </UnitTestResult>
+    <UnitTestResult executionId="2444839f-5fed-4328-8e40-071e01fdd180" testId="99e87fb8-14a5-bdd8-804f-d36f07d49ff7" testName="StatisticsLowerQuartileTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0003904" startTime="2013-07-16T12:11:26.0018061+01:00" endTime="2013-07-16T12:11:26.0068064+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2444839f-5fed-4328-8e40-071e01fdd180">
+    </UnitTestResult>
+    <UnitTestResult executionId="7062c02f-2604-4119-875f-7d13aa8442cf" testId="ff56e7ed-42a7-219f-3d04-58682c94e982" testName="StatisticsLowerQuartileTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003476" startTime="2013-07-16T12:11:26.0078065+01:00" endTime="2013-07-16T12:11:26.0158069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7062c02f-2604-4119-875f-7d13aa8442cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="b022bedc-0ae0-49ad-8590-b7cac829fa36" testId="d7bdd346-512b-641b-efe6-3059f40a8cd8" testName="StatisticsLowerControl3SigmaTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0004541" startTime="2013-07-16T12:11:26.0178070+01:00" endTime="2013-07-16T12:11:26.0288077+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b022bedc-0ae0-49ad-8590-b7cac829fa36">
+    </UnitTestResult>
+    <UnitTestResult executionId="57161552-8522-465a-baf4-e483d15f2f3c" testId="d4486191-a639-1630-21ce-ce79d5cb3326" testName="StatisticsExponentialDistributionTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0002411" startTime="2013-07-16T12:11:26.0308078+01:00" endTime="2013-07-16T12:11:26.0368081+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57161552-8522-465a-baf4-e483d15f2f3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="db6b97da-5e6e-477a-99a4-1b1ac19c0977" testId="f5e3a2cc-0da9-a31a-3515-29c4ae3fc0ea" testName="StatisticsExponentialDistributionTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003254" startTime="2013-07-16T12:11:26.0408084+01:00" endTime="2013-07-16T12:11:26.0448086+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db6b97da-5e6e-477a-99a4-1b1ac19c0977">
+    </UnitTestResult>
+    <UnitTestResult executionId="757b7650-e9e5-41e9-8c3b-7b416c3a2dd4" testId="01588bce-19c0-0e14-e55b-6a9dd8607ed4" testName="StatisticsEstimateStandardErrorTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0006632" startTime="2013-07-16T12:11:26.0488088+01:00" endTime="2013-07-16T12:11:26.0538091+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="757b7650-e9e5-41e9-8c3b-7b416c3a2dd4">
+    </UnitTestResult>
+    <UnitTestResult executionId="19ca8d76-0c72-4f93-9aeb-b71f6372a025" testId="2393a279-11f3-8e59-cca3-5cccc9a7765c" testName="StatisticsCyhelskySkewTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0003207" startTime="2013-07-16T12:11:26.0568093+01:00" endTime="2013-07-16T12:11:26.0628096+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19ca8d76-0c72-4f93-9aeb-b71f6372a025">
+    </UnitTestResult>
+    <UnitTestResult executionId="af1552a3-401c-483f-a481-38e74abbeb96" testId="75296183-6464-e423-525e-34eeaacc24b1" testName="StatisticsCyhelskySkewTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0002356" startTime="2013-07-16T12:11:26.0678099+01:00" endTime="2013-07-16T12:11:26.0728102+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af1552a3-401c-483f-a481-38e74abbeb96">
+    </UnitTestResult>
+    <UnitTestResult executionId="599762c6-59be-452c-b574-6e345acd72be" testId="65415a8e-be3c-758e-b719-149bcba4e2c9" testName="StatisticsCyhelskySkewTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003087" startTime="2013-07-16T12:11:26.0768104+01:00" endTime="2013-07-16T12:11:26.0808106+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="599762c6-59be-452c-b574-6e345acd72be">
+    </UnitTestResult>
+    <UnitTestResult executionId="f03f0368-3370-43dc-9dd8-78d4e4ed9414" testId="560a73d2-43e0-8ff5-1c67-88b6eedd67fa" testName="StatisticsChebysheffRatioTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0004857" startTime="2013-07-16T12:11:26.0838108+01:00" endTime="2013-07-16T12:11:26.0898112+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f03f0368-3370-43dc-9dd8-78d4e4ed9414">
+    </UnitTestResult>
+    <UnitTestResult executionId="e34600bc-12e5-4b28-8108-dd5f3119ddc1" testId="f040dc20-d1ab-e501-0cdd-c49be3f67d73" testName="StatisticsChebysheffRatioTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0007941" startTime="2013-07-16T12:11:26.0918113+01:00" endTime="2013-07-16T12:11:26.0968116+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e34600bc-12e5-4b28-8108-dd5f3119ddc1">
+    </UnitTestResult>
+    <UnitTestResult executionId="a005e609-35de-4a35-acd3-996530fe16f6" testId="519b3c1b-8284-89ce-2bae-272f72108bd5" testName="StatisticsChebysheffRatioTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0003245" startTime="2013-07-16T12:11:26.1038120+01:00" endTime="2013-07-16T12:11:26.1078122+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a005e609-35de-4a35-acd3-996530fe16f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="88ac61df-070b-4f7a-ad80-918cd23f5d71" testId="dfd7860b-9b07-5f5a-fdb0-0f043cd4f6e2" testName="StatisticsChebysheffRatioTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0002937" startTime="2013-07-16T12:11:26.1118124+01:00" endTime="2013-07-16T12:11:26.1158126+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88ac61df-070b-4f7a-ad80-918cd23f5d71">
+    </UnitTestResult>
+    <UnitTestResult executionId="51e6803f-52dc-48f1-b56a-6288f59d7356" testId="3f466c80-e5c6-b559-cae0-d7580d9b5f8b" testName="StatisticsBiNomialTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0005807" startTime="2013-07-16T12:11:26.1198129+01:00" endTime="2013-07-16T12:11:26.1238131+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51e6803f-52dc-48f1-b56a-6288f59d7356">
+    </UnitTestResult>
+    <UnitTestResult executionId="9357edae-180b-4278-9f63-f6416def4474" testId="5d62fbc6-ccf7-3ab9-81af-9267fe431730" testName="StatisticsBiNomialTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0002317" startTime="2013-07-16T12:11:26.1268133+01:00" endTime="2013-07-16T12:11:26.1308135+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9357edae-180b-4278-9f63-f6416def4474">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c3cf602-8a89-40a8-893d-469b66bd0471" testId="aa2d1779-bcda-f75a-8d16-bdf94d08d579" testName="StatisticsBiNomialTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003232" startTime="2013-07-16T12:11:26.1348137+01:00" endTime="2013-07-16T12:11:26.1408141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c3cf602-8a89-40a8-893d-469b66bd0471">
+    </UnitTestResult>
+    <UnitTestResult executionId="569b6e8a-c8fa-4511-ac81-290083d14214" testId="badc6ecf-6b81-3e7f-ba84-d18686f862dd" testName="PopulatorTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0111169" startTime="2013-07-16T12:11:26.1448143+01:00" endTime="2013-07-16T12:11:26.1598152+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="569b6e8a-c8fa-4511-ac81-290083d14214">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2e1b46b-e33e-4bd0-a154-d29ec7e56907" testId="6abc2210-ddd4-034b-b2ff-4ecc00cadd20" testName="MortTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003647" startTime="2013-07-16T12:11:26.1648155+01:00" endTime="2013-07-16T12:11:26.1688157+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e1b46b-e33e-4bd0-a154-d29ec7e56907">
+    </UnitTestResult>
+    <UnitTestResult executionId="26bbacf1-a2c7-46fb-b80e-293ceed4af0c" testId="e55ca91a-0935-016d-7e90-50c5811bc777" testName="MockRepositoryTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0056852" startTime="2013-07-16T12:11:26.1748160+01:00" endTime="2013-07-16T12:11:26.1838165+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26bbacf1-a2c7-46fb-b80e-293ceed4af0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5428c0d-88d5-40f6-92ec-c48c993f9991" testId="3a9a2ce8-1433-7d7d-25b4-39d859d81dab" testName="MockRepositoryTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0009912" startTime="2013-07-16T12:11:26.1868167+01:00" endTime="2013-07-16T12:11:26.1918170+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5428c0d-88d5-40f6-92ec-c48c993f9991">
+    </UnitTestResult>
+    <UnitTestResult executionId="fadf5cd1-2485-4e51-95e7-f6f048161832" testId="f2413aee-ec9a-0565-b722-d81dbcf6b26b" testName="AddWeekDaysTest6" computerName="DLEPELLEY-VE" duration="00:00:00.0023472" startTime="2013-07-16T12:11:26.1948172+01:00" endTime="2013-07-16T12:11:26.2008175+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fadf5cd1-2485-4e51-95e7-f6f048161832">
+    </UnitTestResult>
+    <UnitTestResult executionId="f5dc6300-2c9b-4f50-908e-2c15df0ead2d" testId="1e1a575b-45eb-1a4f-2ea6-8af101cbb82a" testName="AddWeekDaysTest5" computerName="DLEPELLEY-VE" duration="00:00:00.0005097" startTime="2013-07-16T12:11:26.2028176+01:00" endTime="2013-07-16T12:11:26.2088180+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5dc6300-2c9b-4f50-908e-2c15df0ead2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="74b4d924-9394-452c-925e-3987e904ffab" testId="16227ad4-c30b-2d49-db60-4791526f4c97" testName="AddWeekDaysTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0003361" startTime="2013-07-16T12:11:26.2118181+01:00" endTime="2013-07-16T12:11:26.2158184+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74b4d924-9394-452c-925e-3987e904ffab">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9cd5ccf-55aa-49ce-9ba6-4142addee5ff" testId="6c009973-0dda-f15c-2258-198461fbd19a" testName="AddWeekDaysTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0004862" startTime="2013-07-16T12:11:26.2168184+01:00" endTime="2013-07-16T12:11:26.2208187+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9cd5ccf-55aa-49ce-9ba6-4142addee5ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="abe031c0-bc1f-4651-a343-59502cdf0153" testId="a0cc7ea9-230b-72cc-1449-a9ba80f3cd43" testName="AddWeekDaysTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0003557" startTime="2013-07-16T12:11:26.2268190+01:00" endTime="2013-07-16T12:11:26.2298192+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abe031c0-bc1f-4651-a343-59502cdf0153">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4c582e8-618b-4d6d-993b-1a0db7820816" testId="bfb077ff-3912-54fd-7926-440b1c274f56" testName="AddWeekDaysTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003348" startTime="2013-07-16T12:11:26.2318193+01:00" endTime="2013-07-16T12:11:26.2378196+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4c582e8-618b-4d6d-993b-1a0db7820816">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a8b728c-21ce-4f56-94fa-ba318718749e" testId="ec104895-ca34-ffa8-8d5e-55b2aa909a47" testName="GetDatesTest8" computerName="DLEPELLEY-VE" duration="00:00:00.0366838" startTime="2013-07-16T12:11:26.2418199+01:00" endTime="2013-07-16T12:11:26.2828222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a8b728c-21ce-4f56-94fa-ba318718749e">
+    </UnitTestResult>
+    <UnitTestResult executionId="f61e4d04-72d5-4544-9199-27b7bb4838ef" testId="0c5e6fee-c745-fd9d-fd7e-0ec5bfe01a48" testName="GetDatesTest7" computerName="DLEPELLEY-VE" duration="00:00:00.0070771" startTime="2013-07-16T12:11:26.2838223+01:00" endTime="2013-07-16T12:11:26.2948229+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f61e4d04-72d5-4544-9199-27b7bb4838ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bc1a332-1714-4e36-aa0c-b7fc4a9d1e03" testId="c76f2e4e-1ac7-2769-4722-7fd5de22848d" testName="GetDatesTest6" computerName="DLEPELLEY-VE" duration="00:00:00.0082086" startTime="2013-07-16T12:11:26.3028233+01:00" endTime="2013-07-16T12:11:26.3148240+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bc1a332-1714-4e36-aa0c-b7fc4a9d1e03">
+    </UnitTestResult>
+    <UnitTestResult executionId="345cb441-abf3-48c0-b41e-6141086d09e1" testId="cbd2b3f8-b393-ac05-dab7-d2d379b1238f" testName="GetDatesTest5" computerName="DLEPELLEY-VE" duration="00:00:00.0035125" startTime="2013-07-16T12:11:26.3178242+01:00" endTime="2013-07-16T12:11:26.3248246+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="345cb441-abf3-48c0-b41e-6141086d09e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="0fbae248-fd96-4d83-b75a-a894b4b7dcb2" testId="c6d89c84-c65e-9b6a-08da-73518c32a1e7" testName="GetDatesTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0024686" startTime="2013-07-16T12:11:26.3288248+01:00" endTime="2013-07-16T12:11:26.3388254+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fbae248-fd96-4d83-b75a-a894b4b7dcb2">
+    </UnitTestResult>
+    <UnitTestResult executionId="50c0de76-c27b-4aa2-85bb-d7058504bfe3" testId="88a90573-9d91-6d56-d405-b1a4b59cae2a" testName="GetDatesTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0007979" startTime="2013-07-16T12:11:26.3408255+01:00" endTime="2013-07-16T12:11:26.3478259+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50c0de76-c27b-4aa2-85bb-d7058504bfe3">
+    </UnitTestResult>
+    <UnitTestResult executionId="76b09e96-e705-49c9-ae02-16f0f1834e03" testId="3dba5f78-2094-2630-49c8-2d032a183336" testName="GetDatesTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0053376" startTime="2013-07-16T12:11:26.3538263+01:00" endTime="2013-07-16T12:11:26.3628268+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76b09e96-e705-49c9-ae02-16f0f1834e03">
+    </UnitTestResult>
+    <UnitTestResult executionId="011240f3-4ff3-4fc1-aed4-ba28a289a9f3" testId="79c70ff4-653f-e8f3-90b9-6c9aae7e521a" testName="GetDatesTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0008608" startTime="2013-07-16T12:11:26.3658269+01:00" endTime="2013-07-16T12:11:26.3748275+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="011240f3-4ff3-4fc1-aed4-ba28a289a9f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="da393182-be83-4b09-ab39-9b45580b11fc" testId="75e5af10-667e-13ae-2c2f-27cab9ec07e8" testName="NullableToStringTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0010985" startTime="2013-07-16T12:11:26.3768276+01:00" endTime="2013-07-16T12:11:26.3808278+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da393182-be83-4b09-ab39-9b45580b11fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1b6d779-4e87-40ac-98e1-17ded83a98b4" testId="7a365626-7ad5-153b-2b62-97fe118286e2" testName="NullableToStringTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0091524" startTime="2013-07-16T12:11:26.3828279+01:00" endTime="2013-07-16T12:11:26.3958287+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b6d779-4e87-40ac-98e1-17ded83a98b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d23706ee-d67f-41ae-98c4-2ba7502f1dbe" testId="f9016b0c-a25e-7e8c-396f-241f9636de14" testName="NullableToStringTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0004498" startTime="2013-07-16T12:11:26.3958287+01:00" endTime="2013-07-16T12:11:26.3988288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d23706ee-d67f-41ae-98c4-2ba7502f1dbe">
+    </UnitTestResult>
+    <UnitTestResult executionId="39edef39-58c4-40cd-b365-19960a7fe514" testId="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe" testName="NullableToStringTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0005794" startTime="2013-07-16T12:11:26.3998289+01:00" endTime="2013-07-16T12:11:26.4038291+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39edef39-58c4-40cd-b365-19960a7fe514">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c0bebfd-9f0c-4134-920e-2a9b09a908a7" testId="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a" testName="NullableConvertTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0016557" startTime="2013-07-16T12:11:26.4048292+01:00" endTime="2013-07-16T12:11:26.4098295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c0bebfd-9f0c-4134-920e-2a9b09a908a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd1dca22-f009-4f52-8896-2103b6101337" testId="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0" testName="NullableConvertTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0008163" startTime="2013-07-16T12:11:26.4108295+01:00" endTime="2013-07-16T12:11:26.4158298+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd1dca22-f009-4f52-8896-2103b6101337">
+    </UnitTestResult>
+    <UnitTestResult executionId="154b590d-b78d-423e-899b-39ab92d5c217" testId="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e" testName="NullableConvertTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0010784" startTime="2013-07-16T12:11:26.4288306+01:00" endTime="2013-07-16T12:11:26.4338308+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="154b590d-b78d-423e-899b-39ab92d5c217">
+    </UnitTestResult>
+    <UnitTestResult executionId="11096cad-eff8-45f1-bcf1-60f0600636af" testId="c09229bd-699d-ed66-5c96-4814e9e801a5" testName="NullableConvertTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0005306" startTime="2013-07-16T12:11:26.4418313+01:00" endTime="2013-07-16T12:11:26.4458315+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11096cad-eff8-45f1-bcf1-60f0600636af">
+    </UnitTestResult>
+    <UnitTestResult executionId="a642351e-76b5-4a42-8c17-a95669f0b453" testId="e38a49ea-16a9-a64f-61e1-8d1e29a1a2af" testName="NextWeekDayTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0004892" startTime="2013-07-16T12:11:26.4598323+01:00" endTime="2013-07-16T12:11:26.4638326+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a642351e-76b5-4a42-8c17-a95669f0b453">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f962578-3443-4dd4-95dc-bbab3ca83c79" testId="4aa5e774-eddd-cb9e-186d-a74a1781c704" testName="NextWeekDayTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0003848" startTime="2013-07-16T12:11:26.4678328+01:00" endTime="2013-07-16T12:11:26.4708330+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f962578-3443-4dd4-95dc-bbab3ca83c79">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3f95c54-73b5-4a5c-a30c-397e67dc7b8a" testId="9e788524-a86b-a81d-1c2c-95f8145e6635" testName="NextWeekDayTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0004374" startTime="2013-07-16T12:11:26.4728331+01:00" endTime="2013-07-16T12:11:26.4768333+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3f95c54-73b5-4a5c-a30c-397e67dc7b8a">
+    </UnitTestResult>
+    <UnitTestResult executionId="f792b0ba-48ee-4f24-94c0-ea2b5e3aff67" testId="d93fefe1-c457-1451-1df7-29ad3bfe2c43" testName="NextWeekDayTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0003472" startTime="2013-07-16T12:11:26.4788334+01:00" endTime="2013-07-16T12:11:26.4828336+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f792b0ba-48ee-4f24-94c0-ea2b5e3aff67">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae37a9e2-b679-4de8-82f4-9fdce9540630" testId="ce2e18da-ada4-5653-4bbc-19f61a2a0093" testName="PeriodOfTime_IsWithin6" computerName="DLEPELLEY-VE" duration="00:00:00.0022899" startTime="2013-07-16T12:11:26.4838337+01:00" endTime="2013-07-16T12:11:26.4898340+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae37a9e2-b679-4de8-82f4-9fdce9540630">
+    </UnitTestResult>
+    <UnitTestResult executionId="23ddb6aa-1a47-487c-b99e-3baba3f39f29" testId="7580eab6-df47-91cd-84aa-9151ff237029" testName="PeriodOfTime_IsWithin5" computerName="DLEPELLEY-VE" duration="00:00:00.0003472" startTime="2013-07-16T12:11:26.4918342+01:00" endTime="2013-07-16T12:11:26.4948343+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23ddb6aa-1a47-487c-b99e-3baba3f39f29">
+    </UnitTestResult>
+    <UnitTestResult executionId="78385d8e-9695-45a6-9b82-d8dedaaf3750" testId="6d5a7866-5c36-62e8-f5b0-e7ff5b58163d" testName="PeriodOfTime_IsWithin4" computerName="DLEPELLEY-VE" duration="00:00:00.0007479" startTime="2013-07-16T12:11:26.4958344+01:00" endTime="2013-07-16T12:11:26.4998346+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78385d8e-9695-45a6-9b82-d8dedaaf3750">
+    </UnitTestResult>
+    <UnitTestResult executionId="a91520a1-e93d-4e8a-a8f1-3d723a13c11b" testId="512f21be-da63-a90e-0af1-c5612251a66a" testName="PeriodOfTime_IsWithin3" computerName="DLEPELLEY-VE" duration="00:00:00.0003228" startTime="2013-07-16T12:11:26.5018347+01:00" endTime="2013-07-16T12:11:26.5048349+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a91520a1-e93d-4e8a-a8f1-3d723a13c11b">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6c9bd75-8a43-4692-8a96-9c8012c66b7c" testId="ec686991-ca46-84ea-5a95-13b8a4b9a741" testName="PeriodOfTime_IsWithin2" computerName="DLEPELLEY-VE" duration="00:00:00.0003254" startTime="2013-07-16T12:11:26.5068350+01:00" endTime="2013-07-16T12:11:26.5108352+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6c9bd75-8a43-4692-8a96-9c8012c66b7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0670ab0-03ff-45d8-84f7-a5028738c776" testId="55e34ffc-8d53-4d72-4a0f-e04e3dea0ece" testName="PeriodOfTime_IsWithin1" computerName="DLEPELLEY-VE" duration="00:00:00.0003271" startTime="2013-07-16T12:11:26.5118353+01:00" endTime="2013-07-16T12:11:26.5148355+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0670ab0-03ff-45d8-84f7-a5028738c776">
+    </UnitTestResult>
+    <UnitTestResult executionId="ffc3e1cc-acba-4ffe-a20f-b4186a8b9653" testId="e44675ef-0188-c035-d78e-04f0b5c81021" testName="PeriodOfTime_Conflicts5" computerName="DLEPELLEY-VE" duration="00:00:00.0135972" startTime="2013-07-16T12:11:26.5158355+01:00" endTime="2013-07-16T12:11:26.5328365+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffc3e1cc-acba-4ffe-a20f-b4186a8b9653">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c1cb41c-4eab-4834-9c51-42b269279d87" testId="b1e90189-e524-cbcd-e82d-524f03f103bf" testName="PeriodOfTime_Conflicts4" computerName="DLEPELLEY-VE" duration="00:00:00.0008017" startTime="2013-07-16T12:11:26.5338366+01:00" endTime="2013-07-16T12:11:26.5388368+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c1cb41c-4eab-4834-9c51-42b269279d87">
+    </UnitTestResult>
+    <UnitTestResult executionId="3985a047-b322-41ac-bd66-0dbb0a9fbe7b" testId="5e77d3c6-290f-3ec8-2d35-9d90368b387a" testName="PeriodOfTime_Conflicts3" computerName="DLEPELLEY-VE" duration="00:00:00.0005435" startTime="2013-07-16T12:11:26.5408370+01:00" endTime="2013-07-16T12:11:26.5508375+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3985a047-b322-41ac-bd66-0dbb0a9fbe7b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a089d95-db64-45da-9d88-0e5e301d9530" testId="87b22252-eecd-ce35-c39b-45f9c1344c40" testName="PeriodOfTime_Conflicts2" computerName="DLEPELLEY-VE" duration="00:00:00.0009890" startTime="2013-07-16T12:11:26.5518376+01:00" endTime="2013-07-16T12:11:26.5558378+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a089d95-db64-45da-9d88-0e5e301d9530">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f632d46-d3f1-4f3f-b7cb-13fbb761df74" testId="678e27d2-14d7-036f-6413-98043c45503f" testName="PeriodOfTime_Conflicts1" computerName="DLEPELLEY-VE" duration="00:00:00.0011165" startTime="2013-07-16T12:11:26.5578379+01:00" endTime="2013-07-16T12:11:26.5618382+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f632d46-d3f1-4f3f-b7cb-13fbb761df74">
+    </UnitTestResult>
+    <UnitTestResult executionId="919af4fc-6dcd-42a3-ae4c-56a7a24b5b84" testId="034e6bb9-3189-30ad-8c2f-aa380fec52af" testName="AllDatesMatchingDayOfWeekTest7" computerName="DLEPELLEY-VE" duration="00:00:00.0475181" startTime="2013-07-16T12:11:26.5638383+01:00" endTime="2013-07-16T12:11:26.6138411+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="919af4fc-6dcd-42a3-ae4c-56a7a24b5b84">
+    </UnitTestResult>
+    <UnitTestResult executionId="efac8a84-b697-4f6c-a38f-6a5efaf4600a" testId="917a16f8-a54c-fc75-a8ab-786a96970297" testName="AllDatesMatchingDayOfWeekTest6" computerName="DLEPELLEY-VE" duration="00:00:00.0009980" startTime="2013-07-16T12:11:26.6148412+01:00" endTime="2013-07-16T12:11:26.6198415+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efac8a84-b697-4f6c-a38f-6a5efaf4600a">
+    </UnitTestResult>
+    <UnitTestResult executionId="332a40a9-c485-48f4-a3a6-240def8109ce" testId="a9a32d59-789c-911e-cf97-84f5c9fa2d42" testName="AllDatesMatchingDayOfWeekTest5" computerName="DLEPELLEY-VE" duration="00:00:00.0010652" startTime="2013-07-16T12:11:26.6228416+01:00" endTime="2013-07-16T12:11:26.6328422+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="332a40a9-c485-48f4-a3a6-240def8109ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="07ed881d-8d97-4909-a7e6-dbc492733e63" testId="126e48b5-26bf-ba3d-6db5-1a6aaa46f2de" testName="AllDatesMatchingDayOfWeekTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0008774" startTime="2013-07-16T12:11:26.6428428+01:00" endTime="2013-07-16T12:11:26.6468430+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ed881d-8d97-4909-a7e6-dbc492733e63">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ceaef25-f05f-4af9-9de4-16681ccfc545" testId="7c795e78-bf52-0f5d-ae3c-66fd7a187eb5" testName="AllDatesMatchingDayOfWeekTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0021325" startTime="2013-07-16T12:11:26.6478431+01:00" endTime="2013-07-16T12:11:26.6608438+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ceaef25-f05f-4af9-9de4-16681ccfc545">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe8ebd67-a109-4703-a6dd-7d1925811211" testId="a57c6349-0b10-18fb-5715-c3bcbe18dfe5" testName="AllDatesMatchingDayOfWeekTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0007983" startTime="2013-07-16T12:11:26.6698443+01:00" endTime="2013-07-16T12:11:26.6728445+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe8ebd67-a109-4703-a6dd-7d1925811211">
+    </UnitTestResult>
+    <UnitTestResult executionId="79fe1275-6cc0-453d-8894-cb45236efed4" testId="08302814-93ff-1710-1cdb-a13ef3cd9c75" testName="AllDatesMatchingDayOfWeekTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0008201" startTime="2013-07-16T12:11:26.6748446+01:00" endTime="2013-07-16T12:11:26.6808450+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79fe1275-6cc0-453d-8894-cb45236efed4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

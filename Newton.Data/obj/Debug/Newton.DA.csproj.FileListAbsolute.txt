@@ -1,0 +1,15 @@
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.DA\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.DA\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.DA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.DA\obj\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\LOS\src\Newton.DA\obj\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Debug\Newton.DA.pdb

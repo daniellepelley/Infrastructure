@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="356b1bd3-ab4a-480e-8e9e-88cc50d84b11" name="dlepelley@DLEPELLEY-VE 2013-07-16 11:53:29" runUser="dlepelley-VE\dlepelley" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="be81803b-c813-48ad-959c-dcd02ef2e904">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dlepelley_DLEPELLEY-VE 2013-07-16 11_53_29">
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Release\Newton.Testing.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-16T11:53:29.7822499+01:00" queuing="2013-07-16T11:53:32.7904219+01:00" start="2013-07-16T11:53:33.0504368+01:00" finish="2013-07-16T11:53:34.1054972+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="7" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NullableConvertTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="af19f6bf-9ed6-42c0-b684-ab82134b7012" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest4" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="7a365626-7ad5-153b-2b62-97fe118286e2">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="165f93db-12b1-4f00-bf85-6a7dcef01230" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest3" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="c09229bd-699d-ed66-5c96-4814e9e801a5">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="2f27401b-151a-496d-bf3a-0c84f72ef715" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest1" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest3" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="e31ea105-9895-4662-9f76-7e72b9301463" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest3" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="18644a1c-a236-4e29-aec8-4d37416d5f36" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest1" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest4" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="75e5af10-667e-13ae-2c2f-27cab9ec07e8">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="cffb78af-774d-4966-bb8a-7b5c5b3ff508" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest4" />
+    </UnitTest>
+    <UnitTest name="NullableConvertTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="1723f108-3849-4447-b2db-77e25dae31fe" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableConvertTest2" />
+    </UnitTest>
+    <UnitTest name="NullableToStringTest2" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="f9016b0c-a25e-7e8c-396f-241f9636de14">
+      <Owners>
+        <Owner name="Extensions.Nullable" />
+      </Owners>
+      <Execution id="a4800e4d-69b4-4162-a6fc-6fd11a90c701" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.NullablesTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullableToStringTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="75e5af10-667e-13ae-2c2f-27cab9ec07e8" executionId="cffb78af-774d-4966-bb8a-7b5c5b3ff508" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a365626-7ad5-153b-2b62-97fe118286e2" executionId="165f93db-12b1-4f00-bf85-6a7dcef01230" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9016b0c-a25e-7e8c-396f-241f9636de14" executionId="a4800e4d-69b4-4162-a6fc-6fd11a90c701" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe" executionId="18644a1c-a236-4e29-aec8-4d37416d5f36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a" executionId="af19f6bf-9ed6-42c0-b684-ab82134b7012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0" executionId="e31ea105-9895-4662-9f76-7e72b9301463" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e" executionId="1723f108-3849-4447-b2db-77e25dae31fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c09229bd-699d-ed66-5c96-4814e9e801a5" executionId="2f27401b-151a-496d-bf3a-0c84f72ef715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cffb78af-774d-4966-bb8a-7b5c5b3ff508" testId="75e5af10-667e-13ae-2c2f-27cab9ec07e8" testName="NullableToStringTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0918958" startTime="2013-07-16T11:53:33.2474481+01:00" endTime="2013-07-16T11:53:33.9094860+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cffb78af-774d-4966-bb8a-7b5c5b3ff508">
+    </UnitTestResult>
+    <UnitTestResult executionId="165f93db-12b1-4f00-bf85-6a7dcef01230" testId="7a365626-7ad5-153b-2b62-97fe118286e2" testName="NullableToStringTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0087256" startTime="2013-07-16T11:53:33.9114861+01:00" endTime="2013-07-16T11:53:33.9304872+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="165f93db-12b1-4f00-bf85-6a7dcef01230">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4800e4d-69b4-4162-a6fc-6fd11a90c701" testId="f9016b0c-a25e-7e8c-396f-241f9636de14" testName="NullableToStringTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0029865" startTime="2013-07-16T11:53:33.9324873+01:00" endTime="2013-07-16T11:53:33.9384876+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4800e4d-69b4-4162-a6fc-6fd11a90c701">
+    </UnitTestResult>
+    <UnitTestResult executionId="18644a1c-a236-4e29-aec8-4d37416d5f36" testId="e1a61fd1-0d6e-d55c-d6d5-c26115c63fbe" testName="NullableToStringTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0867493" startTime="2013-07-16T11:53:33.9444880+01:00" endTime="2013-07-16T11:53:34.0344931+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18644a1c-a236-4e29-aec8-4d37416d5f36">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;01/06/13&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at Test.NewtonFramework.NullablesTest.NullableToStringTest1() in C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\NullablesTest.cs:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af19f6bf-9ed6-42c0-b684-ab82134b7012" testId="2cbb3a3d-42b9-cc19-d677-8e3d6d903d1a" testName="NullableConvertTest4" computerName="DLEPELLEY-VE" duration="00:00:00.0020312" startTime="2013-07-16T11:53:34.0364932+01:00" endTime="2013-07-16T11:53:34.0414935+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af19f6bf-9ed6-42c0-b684-ab82134b7012">
+    </UnitTestResult>
+    <UnitTestResult executionId="e31ea105-9895-4662-9f76-7e72b9301463" testId="51cd2f4c-32e5-a243-41d5-6dc38a52d8f0" testName="NullableConvertTest3" computerName="DLEPELLEY-VE" duration="00:00:00.0007235" startTime="2013-07-16T11:53:34.0424936+01:00" endTime="2013-07-16T11:53:34.0464938+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e31ea105-9895-4662-9f76-7e72b9301463">
+    </UnitTestResult>
+    <UnitTestResult executionId="1723f108-3849-4447-b2db-77e25dae31fe" testId="2ba48dd7-57e8-4dbb-cf9c-01ffcca0704e" testName="NullableConvertTest2" computerName="DLEPELLEY-VE" duration="00:00:00.0009377" startTime="2013-07-16T11:53:34.0474938+01:00" endTime="2013-07-16T11:53:34.0514941+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1723f108-3849-4447-b2db-77e25dae31fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="2f27401b-151a-496d-bf3a-0c84f72ef715" testId="c09229bd-699d-ed66-5c96-4814e9e801a5" testName="NullableConvertTest1" computerName="DLEPELLEY-VE" duration="00:00:00.0004532" startTime="2013-07-16T11:53:34.0534942+01:00" endTime="2013-07-16T11:53:34.0794957+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f27401b-151a-496d-bf3a-0c84f72ef715">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,11 @@
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\bin\Release\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\bin\Release\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Release\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.DA\obj\Release\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.dll
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Release\Newton.DA.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.DA\obj\Release\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.XML

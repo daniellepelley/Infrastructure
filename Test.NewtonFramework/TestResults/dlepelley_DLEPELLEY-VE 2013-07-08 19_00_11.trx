@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9728f0ac-ffa2-4310-854a-d53ca3161956" name="dlepelley@DLEPELLEY-VE 2013-07-08 19:00:11" runUser="dlepelley-VE\dlepelley" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="be81803b-c813-48ad-959c-dcd02ef2e904">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dlepelley_DLEPELLEY-VE 2013-07-08 19_00_11">
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Dev\bin\Release\Newton.Dev.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Release\Newton.Testing.dll" />
+      <DeploymentItem filename="C:\Users\dlepelley\Documents\Newton Framework Build\Newton.DA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-08T19:00:11.1329929+01:00" queuing="2013-07-08T19:00:11.2189978+01:00" start="2013-07-08T19:00:11.2429991+01:00" finish="2013-07-08T19:00:11.5600173+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PeriodOfTime_Conflicts1" storage="c:\users\dlepelley\documents\code\newton framework\test.newtonframework\test.newtonframework\bin\release\test.newtonframework.dll" id="678e27d2-14d7-036f-6413-98043c45503f">
+      <Owners>
+        <Owner name="PeriodOfTime" />
+      </Owners>
+      <Execution id="893e78b9-852f-4cf7-82d9-ccc52084bf6a" />
+      <TestMethod codeBase="C:/Users/dlepelley/Documents/Code/Newton Framework/Test.NewtonFramework/Test.NewtonFramework/bin/Release/Test.NewtonFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.NewtonFramework.PeriodOfTimeExtensionsTest, Test.NewtonFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PeriodOfTime_Conflicts1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="678e27d2-14d7-036f-6413-98043c45503f" executionId="893e78b9-852f-4cf7-82d9-ccc52084bf6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="893e78b9-852f-4cf7-82d9-ccc52084bf6a" testId="678e27d2-14d7-036f-6413-98043c45503f" testName="PeriodOfTime_Conflicts1" computerName="DLEPELLEY-VE" duration="00:00:00.0191356" startTime="2013-07-08T19:00:11.2559999+01:00" endTime="2013-07-08T19:00:11.5220151+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="893e78b9-852f-4cf7-82d9-ccc52084bf6a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

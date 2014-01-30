@@ -1,0 +1,32 @@
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.xml
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.xml

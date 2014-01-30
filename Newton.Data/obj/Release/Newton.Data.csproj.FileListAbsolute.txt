@@ -1,0 +1,11 @@
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.Data.dll
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Release\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Data\obj\Release\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Newton Framework Build\Newton.Data.XML
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Compiled DLLs\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Compiled DLLs\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\Newton.Data.pdb

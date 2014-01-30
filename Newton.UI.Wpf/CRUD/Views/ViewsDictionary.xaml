@@ -1,0 +1,19 @@
+﻿<ResourceDictionary x:Class="Newton.UI.Wpf.ViewsDictionary"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ui="clr-namespace:Newton.UI.Wpf">
+
+
+    <DataTemplate x:Key="CollectionViewDataTemplate">
+        <ui:CollectionView/>
+    </DataTemplate>
+
+    <DataTemplate x:Key="EditViewDataTemplate">
+        <ui:EditView/>
+    </DataTemplate>
+
+    <DataTemplate x:Key="DisplayViewDataTemplate">
+        <ui:DisplayView/>
+    </DataTemplate>
+
+</ResourceDictionary>

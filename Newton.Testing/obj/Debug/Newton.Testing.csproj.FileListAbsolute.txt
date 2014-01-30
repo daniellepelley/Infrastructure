@@ -1,0 +1,21 @@
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\bin\Debug\Newton.DA.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\bin\Debug\Newton.DA.pdb
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Testing\Framework\Newton.Testing\obj\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\obj\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\Newton Framework\Newton.Testing\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Debug\Newton.Data.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Debug\Newton.Data.pdb
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\Newton.Testing.pdb

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Newton.Factory.Machine" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAAAAgAAAAQAAAAEAQAQABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Objects\Machine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Newton.Factory.MachineLink" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>Model\Objects\MachineLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Newton.Factory.Line">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAoAAQACAAAEAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\Objects\Line.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MachineLinks" />
+      <Property Name="Machines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Newton.Factory.IMachine">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Objects\IMachine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Newton.Factory.IMachineLink">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Model\Objects\IMachineLink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="AEndMachines" />
+      <Property Name="ZEndMachines" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
