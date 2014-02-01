@@ -1,32 +1,31 @@
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.dll
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.pdb
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.DA.dll
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.dll
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.DA.pdb
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.dll
-C:\Users\dlepelley\Documents\Code\Newton Framework\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.dll
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.xml
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.pdb
-C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.csprojResolveAssemblyReference.cache
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Test.NewtonFramework.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Dev.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Factory.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\MathNet.Numerics.IO.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Core.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.PlatformServices.xml

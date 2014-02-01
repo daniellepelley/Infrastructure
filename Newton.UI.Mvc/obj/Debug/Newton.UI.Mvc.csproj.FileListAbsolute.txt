@@ -28,3 +28,6 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\bin\Debug\
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.csprojResolveAssemblyReference.cache
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb

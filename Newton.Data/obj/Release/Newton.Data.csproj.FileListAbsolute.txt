@@ -9,3 +9,15 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Compiled DLLs\Newton.Dat
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\Newton.Data.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Data\obj\Release\Newton.Data.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\obj\Release\Newton.Data.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\obj\Release\Newton.Data.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\Newton.Data.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\Newton.Data.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Interfaces.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Linq.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.PlatformServices.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Core.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Interfaces.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.Linq.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\System.Reactive.PlatformServices.xml

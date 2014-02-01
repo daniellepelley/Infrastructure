@@ -19,3 +19,19 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Debug
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\Newton.Testing.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Debug\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.csprojResolveAssemblyReference.cache
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Core.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.PlatformServices.xml

@@ -20,3 +20,6 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\bin\Relea
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Release\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Release\Newton.Testing.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Testing\obj\Release\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Release\Newton.Testing.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Release\Newton.Testing.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\obj\Release\Newton.Testing.csprojResolveAssemblyReference.cache

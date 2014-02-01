@@ -23,15 +23,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\Newton.Data.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Compiled DLLs\</OutputPath>
+    <OutputPath>.\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>C:\Users\dlepelley\Documents\Newton Framework Build\Newton.Data.XML</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -58,9 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\Repositories\ConcreteFactories\EmptyRepositoryFactory.cs" />
+    <Compile Include="DataAccess\Repositories\ConcreteRepositories\EmptyRepository.cs" />
     <Compile Include="DataAccess\Repositories\ConcreteFactories\MultiRepositoryFactory.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\SoftDeleteRepository.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\RepositoryDecoratorBase.cs" />
+    <Compile Include="DataAccess\Repositories\Decorators\SlowRepository.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\ValidationRepository.cs" />
     <Compile Include="DataAccess\Repositories\IdentityProvider.cs" />
     <Compile Include="DataAccess\Repositories\Interfaces\AsyncRepository.cs" />

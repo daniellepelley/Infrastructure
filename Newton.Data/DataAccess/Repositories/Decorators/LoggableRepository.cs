@@ -9,29 +9,11 @@ namespace Newton.Data
     /// A decorator around a repository which injects logging
     /// </summary>
     public class LoggableRepository<T>
-        : IRepository<T> where T : class
+        : RepositoryDecoratorBase<T> where T : class
     {
         #region Properties
 
-        private IRepository<T> repository;
-
         private ILogger<T> logger;
-
-        /// <summary>
-        /// The data context that interacts with the data source
-        /// </summary>
-        public IDataContext DataContext
-        {
-            get { return repository.DataContext; }
-        }
-
-        /// <summary>
-        /// The collection of items of type T in the base data
-        /// </summary>
-        public IQueryable<T> Items
-        {
-            get { return repository.Items; }
-        }
 
         #endregion
 
@@ -41,8 +23,8 @@ namespace Newton.Data
         /// A decorator around a repository which injects logging
         /// </summary>
         public LoggableRepository(IRepository<T> repository, ILogger<T> logger)
+            : base(repository)
         {
-            this.repository = repository;
             this.logger = logger;
         }
 
@@ -53,7 +35,7 @@ namespace Newton.Data
         /// <summary>
         /// Saves the entity to the base data
         /// </summary>
-        public void Save(T entity)
+        public override void Save(T entity)
         {
             logger.Log(entity);
             repository.Save(entity);
@@ -62,7 +44,7 @@ namespace Newton.Data
         /// <summary>
         /// Deletes the entity from the base data
         /// </summary>
-        public void Delete(T entity)
+        public override void Delete(T entity)
         {
             logger.Log(entity);
             repository.Delete(entity);
@@ -71,7 +53,7 @@ namespace Newton.Data
         /// <summary>
         /// Creates a new entity of type T in the base data
         /// </summary>
-        public void Create(T entity)
+        public override void Create(T entity)
         {
             logger.Log(entity);
             repository.Create(entity);

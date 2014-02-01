@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Newton.Extensions;
+using global::Newton.Extensions;
 
 namespace Test.NewtonFramework
 {

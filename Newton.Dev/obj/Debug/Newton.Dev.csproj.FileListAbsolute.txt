@@ -8,3 +8,7 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\bin\Debug\New
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Debug\Newton.Dev.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Debug\Newton.Dev.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\bin\Debug\Newton.Dev.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\bin\Debug\Newton.Dev.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\obj\Debug\Newton.Dev.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\obj\Debug\Newton.Dev.pdb

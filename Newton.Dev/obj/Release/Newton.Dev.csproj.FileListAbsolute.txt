@@ -8,3 +8,7 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Release\N
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\obj\Release\Newton.Dev.pdb
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\bin\Release\Newton.Dev.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Dev\bin\Release\Newton.Dev.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\bin\Release\Newton.Dev.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\bin\Release\Newton.Dev.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\obj\Release\Newton.Dev.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Dev\obj\Release\Newton.Dev.pdb

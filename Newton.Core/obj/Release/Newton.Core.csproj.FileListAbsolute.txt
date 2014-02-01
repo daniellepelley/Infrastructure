@@ -8,3 +8,11 @@ C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Compiled DLLs\Newton.Cor
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Core\obj\Release\ResolveAssemblyReference.cache
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Core\obj\Release\Newton.Core.dll
 C:\Users\dlepelley\Documents\Code\NewtonFramework\trunk\Newton.Core\obj\Release\Newton.Core.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Compiled DLLs\Newton.Core.XML
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Compiled DLLs\Newton.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Compiled DLLs\Newton.Core.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\obj\Release\Newton.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\obj\Release\Newton.Core.pdb
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\Newton.Core.XML
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\Newton.Core.dll
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\Newton.Core.pdb

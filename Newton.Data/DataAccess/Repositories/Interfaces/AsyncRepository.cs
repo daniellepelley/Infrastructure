@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Newton.Data
 {
@@ -27,17 +28,17 @@ namespace Newton.Data
         /// <summary>
         /// Saves the entity to the base data
         /// </summary>
-        void SaveAsync(T entity);
+        Task SaveAsync(T entity, Action<T> callBack);
 
         /// <summary>
         /// Deletes the entity from the base data
         /// </summary>
-        void DeleteAsync(T entity);
+        Task DeleteAsync(T entity, Action<T> callBack);
 
         /// <summary>
         /// Creates a new entity of type T in the base data
         /// </summary>
-        void CreateAsync(T entity);
+        Task CreateAsync(T entity, Action<T> callBack);
 
         #endregion
     }
