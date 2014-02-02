@@ -1,0 +1,63 @@
+﻿
+@model Test.WebSite.Mvc.TestUser
+
+@using HtmlHelpers;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="~/scripts/mustache.js" type="text/javascript"></script>
+<script src="~/scripts/knockout-2.2.0.debug.js" type="text/javascript"></script>
+
+
+<h2>Index</h2>
+
+@Html.Bind(model => model.FirstName)
+<div id="Val-FirstName"></div>
+
+<input type="button" id="Save" value="Save" data-bind="click: Save" />
+
+@(Html.KOViewModel())
+
+<script type="text/javascript">
+    var Save = function () {
+        $.ajax({
+            url: "/Knockout/Save",
+            data: ko.toJSON(data),
+            type: 'post',
+            contentType: 'application/json; charset=utf-8'
+        })
+    .done(function (result) { // success callback...
+        f$.data(form_data_key).errors = [];
+        f$.triggerHandler("invalid-form", [f$.validate()]);
+        f$.triggerHandler(success_event, [result]);
+    })
+    .fail(function (err) {
+        var errorData = $.parseJSON(err.responseText);
+
+        $("#Val-FirstName").html("");
+        $("#Val-LastName").html("");
+
+        for (var p in errorData) {
+            if (p === '') {
+            }
+            else {
+                $("#Val-" + p).html(errorData[p]);
+            }
+        }
+        // displayed field errors.
+        //alert(JSON.stringify(fld));
+        //f$.validate().showErrors(fld);
+        //f$.triggerHandler(failed_event, [err]);
+    });
+    };
+
+
+    $(document).ready(function () {
+        $("#Save").click(function () {
+            Save();
+        })
+    });
+</script>
