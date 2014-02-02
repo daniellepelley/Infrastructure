@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Newton.UI.Mvc</RootNamespace>
     <AssemblyName>Newton.UI.Mvc</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,9 +32,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>..\Compiled DLLs\Newton.UI.Mvc.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="Newton.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newton.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -65,16 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Controls\Scripts\OnOffButton.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Newton.Core\Newton.Core.csproj">
-      <Project>{A2AC7910-BA2C-4B09-BDB4-B5A85D825ED7}</Project>
-      <Name>Newton.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Newton.Data\Newton.Data.csproj">
-      <Project>{536D6ED4-0F8F-4D89-81BF-911062F65ADF}</Project>
-      <Name>Newton.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
