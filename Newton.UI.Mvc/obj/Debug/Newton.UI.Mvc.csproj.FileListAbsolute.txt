@@ -46,4 +46,3 @@ C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\Syste
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Reactive.Core.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Reactive.Interfaces.xml
-C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.csprojResolveAssemblyReference.cache
