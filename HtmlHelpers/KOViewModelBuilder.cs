@@ -9,18 +9,29 @@ using System.Text;
 namespace HtmlHelpers
 {
   
-
+    /// <summary>
+    /// Builds a Knockout viewmodel
+    /// </summary>
+    /// <typeparam name="TModel"></typeparam>
     public class KOViewModelBuilder<TModel> : HtmlBuilderBase
     {
+        #region Properties
+
         private TModel model;
 
         private string saveUrl;
+
+        #endregion
+
+        #region Constructors
 
         public KOViewModelBuilder(HtmlHelper helper, TModel model)
             : base(helper)
         {
             this.model = model;
         }
+
+        #endregion
 
         public KOViewModelBuilder<TModel> Save(string url)
         {

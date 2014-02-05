@@ -1,6 +1,8 @@
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using Unity.Mvc4;
+using Newton.Validation;
+
 
 namespace Test.WebSite.Mvc
 {
@@ -18,6 +20,9 @@ namespace Test.WebSite.Mvc
     private static IUnityContainer BuildUnityContainer()
     {
       var container = new UnityContainer();
+
+
+      container.RegisterType<IEntityRuleProviderFactory, RuleProviderFactory>();
 
       // register all your components with the container here
       // it is NOT necessary to register your controllers

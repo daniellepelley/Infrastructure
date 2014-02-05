@@ -5,11 +5,18 @@ using System.Web;
 using System.Web.Mvc;
 using System.Linq.Expressions;
 using System.Text;
+using HtmlHelpers;
 
 namespace HtmlHelpers
 {
     public static class HtmlBuilderExtensions
     {
+        public static ElementBuilder KO(this HtmlHelper helper, System.Web.UI.HtmlTextWriterTag tagName)
+        {
+            return new ElementBuilder(helper, tagName);
+        }
+
+
         public  static ElementBuilder Ringo(this HtmlHelper helper, System.Web.UI.HtmlTextWriterTag tagName)
         {
             return new ElementBuilder(helper, tagName);

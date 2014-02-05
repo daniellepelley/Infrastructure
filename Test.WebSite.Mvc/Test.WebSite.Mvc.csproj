@@ -202,6 +202,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Rules\RuleProviderFactory.cs" />
     <Compile Include="Models\TestUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

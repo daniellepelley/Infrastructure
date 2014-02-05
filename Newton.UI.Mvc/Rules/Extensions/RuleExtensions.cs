@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Newton.Validation;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+using System.Web.Mvc;
 using Newton.Validation;
 
 namespace Newton.Extensions
@@ -89,5 +88,24 @@ namespace Newton.Extensions
 
             return htmlAttributes;
         }
+
+        /// <summary>
+        /// Validates the model and returns a ModelStateDictionary
+        /// </summary>
+        public static ModelStateDictionary ValidateForMvc<T>(this IEntityRuleProvider<T> ruleProvider, T model)
+        {
+            ModelStateDictionary modelState = new ModelStateDictionary();
+            IDictionary<string, IEnumerable<string>> result = ruleProvider.Validate(model);
+
+            foreach (var keyValuePair in result)
+            {
+                foreach (string brokenRule in keyValuePair.Value)
+                {
+                    modelState.AddModelError(keyValuePair.Key, brokenRule);
+                }
+            }
+            return modelState;
+        }
+    
     }
 }

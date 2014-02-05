@@ -1,5 +1,4 @@
-﻿
-@model Test.WebSite.Mvc.TestUser
+﻿@model Test.WebSite.Mvc.TestUser
 
 @using HtmlHelpers;
 
@@ -17,6 +16,10 @@
 @Html.Bind(model => model.FirstName)
 <div id="Val-FirstName"></div>
 
+@(Html.Bind(model => model.LastName))
+@Html.ValidationMessageFor(model => model.FirstName)
+<div id="Val-LastName"></div>
+
 <input type="button" id="Save" value="Save" data-bind="click: Save" />
 
 @(Html.KOViewModel())
@@ -30,11 +33,11 @@
             contentType: 'application/json; charset=utf-8'
         })
     .done(function (result) { // success callback...
-        f$.data(form_data_key).errors = [];
-        f$.triggerHandler("invalid-form", [f$.validate()]);
-        f$.triggerHandler(success_event, [result]);
+        data.FirstName(result.FirstName);
+        data.LastName(result.LastName);
     })
     .fail(function (err) {
+
         var errorData = $.parseJSON(err.responseText);
 
         $("#Val-FirstName").html("");
@@ -47,13 +50,8 @@
                 $("#Val-" + p).html(errorData[p]);
             }
         }
-        // displayed field errors.
-        //alert(JSON.stringify(fld));
-        //f$.validate().showErrors(fld);
-        //f$.triggerHandler(failed_event, [err]);
     });
     };
-
 
     $(document).ready(function () {
         $("#Save").click(function () {

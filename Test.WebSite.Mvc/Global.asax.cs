@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Microsoft.Practices.Unity;
+using Unity.Mvc4;
 
 namespace Test.WebSite.Mvc
 {
@@ -18,6 +20,12 @@ namespace Test.WebSite.Mvc
         {
             AreaRegistration.RegisterAllAreas();
 
+            //UnityContainer container = new UnityContainer();
+            //UnityDependencyResolver resolver = new UnityDependencyResolver(container);
+
+            Bootstrapper.Initialise();
+
+            //Bootstrapper.RegisterTypes(container);
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

@@ -5,41 +5,41 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
-
+using Newton.Validation;
+using Newton.Extensions;
 
 namespace Test.WebSite.Mvc.Controllers
 {
     public class KnockOutController : Controller
     {
-        public KnockOutController()
+        private IEntityRuleProviderFactory ruleProviderFactory;
+
+        public KnockOutController(IEntityRuleProviderFactory ruleProviderFactory)
         {
-            //IEntityRuleProviderFactory entityRuleProviderFactory
+            this.ruleProviderFactory = ruleProviderFactory;
         }
 
         public ActionResult Index()
         {
-            return View(new TestUser() { FirstName = "Danny" });
+            var model = new TestUser() { FirstName = "d", LastName = "a" };
+
+
+            return View(model);
         }
 
         public ActionResult Save(TestUser testUser)
         {
-            var rules = new Newton.UI.Mvc.MvcRuleProvider<TestUser>();
-            rules.AddRule<string>("FirstName", new Newton.Validation.MaximumLengthRule(4));
-            rules.AddRule<string>("FirstName", new Newton.Validation.NoSpacesRule());
-            rules.AddRule<string>("FirstName", new Newton.Validation.IsRequiredRule<string>());
+            var modelState = ruleProviderFactory.Create<TestUser>().ValidateForMvc(testUser);
 
-            rules.AddRule<string>("LastName", new Newton.Validation.MaximumLengthRule(6));
-            rules.AddRule<string>("LastName", new Newton.Validation.IsRequiredRule<string>());
-            var modelState = rules.ValidateForMvc(testUser);
-            
             if (!modelState.IsValid)
                 return new JsonErrorResult(modelState);
             else
-                return View(testUser);
+            {
+                testUser.FirstName += "1";
+                testUser.LastName += "2";
+                return Json(testUser);
+            }
         }
-
-
-
     }
 
     public class JsonErrorResult : JsonResult
