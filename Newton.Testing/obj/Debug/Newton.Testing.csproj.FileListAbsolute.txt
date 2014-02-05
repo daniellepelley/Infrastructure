@@ -35,3 +35,19 @@ C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Syst
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Interfaces.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Linq.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Core.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.pdb
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Core.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.pdb

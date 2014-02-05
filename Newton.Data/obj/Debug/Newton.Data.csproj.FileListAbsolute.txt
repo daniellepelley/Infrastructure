@@ -21,3 +21,17 @@ C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\bin\Debug\System.
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.dll
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.pdb
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\bin\Debug\Newton.Data.XML
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\obj\Debug\Newton.Data.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\obj\Debug\Newton.Data.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\obj\Debug\Newton.Data.pdb
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\Newton.Data.XML
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\Newton.Data.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\Newton.Data.pdb
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Core.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Core.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.PlatformServices.xml

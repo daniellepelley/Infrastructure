@@ -144,36 +144,6 @@
             The collection of items of type T in the base data
             </summary>
         </member>
-        <member name="T:Newton.Data.SlowRepository`1">
-            <summary>
-            A decorator around a repository that makes it slow for testing purposes
-            </summary>
-        </member>
-        <member name="M:Newton.Data.SlowRepository`1.#ctor(Newton.Data.IRepository{`0},System.TimeSpan)">
-            <summary>
-            A decorator around a repository that makes it slow for testing purposes
-            </summary>
-        </member>
-        <member name="M:Newton.Data.SlowRepository`1.Save(`0)">
-            <summary>
-            Saves the entity to the base data
-            </summary>
-        </member>
-        <member name="M:Newton.Data.SlowRepository`1.Delete(`0)">
-            <summary>
-            Deletes the entity from the base data
-            </summary>
-        </member>
-        <member name="M:Newton.Data.SlowRepository`1.Create(`0)">
-            <summary>
-            Creates a new entity of type T in the base data
-            </summary>
-        </member>
-        <member name="P:Newton.Data.SlowRepository`1.Items">
-            <summary>
-            The collection of items of type T in the base data
-            </summary>
-        </member>
         <member name="T:Newton.Data.ValidationRepository`1">
             <summary>
             A decorator around a repository that makes validates entities before updating them

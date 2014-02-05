@@ -46,3 +46,13 @@ C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\Syste
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Reactive.Core.xml
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\Newton.UI.Mvc.pdb
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\Newton.Data.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Web.Http.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Web.Http.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb

@@ -21,8 +21,17 @@ namespace Test.WebSite.Mvc.Controllers
 
         public ActionResult Index()
         {
-            var model = new TestUser() { FirstName = "d", LastName = "a" };
-
+            var model = new TestUser()
+            { 
+                FirstName = "d",
+                LastName = "a",
+                Address = new TestAddress()
+                {
+                    Number = 123,
+                    Street = "Main Street",
+                    Postcode = "CR2 3DS"
+                }
+            };
 
             return View(model);
         }

@@ -21,13 +21,15 @@ namespace HtmlHelpers
 
         private string saveUrl;
 
+        private HtmlHelper helper;
+
         #endregion
 
         #region Constructors
 
         public KOViewModelBuilder(HtmlHelper helper, TModel model)
-            : base(helper)
         {
+            this.helper = helper;
             this.model = model;
         }
 

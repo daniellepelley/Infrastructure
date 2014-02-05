@@ -42,15 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HtmlAttribute.cs" />
-    <Compile Include="HtmlBuilder.cs" />
-    <Compile Include="HtmlBuilderBase.cs" />
-    <Compile Include="ElementBuilder.cs" />
-    <Compile Include="HtmlBuilder_TModel.cs" />
-    <Compile Include="IAttributeBuilder.cs" />
-    <Compile Include="KOBindingSetUp.cs" />
+    <Compile Include="Base\HtmlAttribute.cs" />
+    <Compile Include="Base\ElementBuilder.cs" />
+    <Compile Include="Base\HtmlBuilderBase.cs" />
+    <Compile Include="Base\HtmlBuilder_TModel.cs" />
+    <Compile Include="Base\IAttributeBuilder.cs" />
+    <Compile Include="Base\IHtmlBuilder.cs" />
+    <Compile Include="Base\IHtmlBuilder_TModel.cs" />
+    <Compile Include="Knockout\DataContext.cs" />
+    <Compile Include="Knockout\KOHtmlBuilder_TModel.cs" />
+    <Compile Include="Knockout\KOBindAttribute.cs" />
     <Compile Include="HtmlBuilderExtensions.cs" />
-    <Compile Include="KOViewModelBuilder.cs" />
+    <Compile Include="Knockout\KOViewModelBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

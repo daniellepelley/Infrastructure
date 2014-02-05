@@ -65,7 +65,6 @@
     <Compile Include="DataAccess\Repositories\ConcreteFactories\MultiRepositoryFactory.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\SoftDeleteRepository.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\RepositoryDecoratorBase.cs" />
-    <Compile Include="DataAccess\Repositories\Decorators\SlowRepository.cs" />
     <Compile Include="DataAccess\Repositories\Decorators\ValidationRepository.cs" />
     <Compile Include="DataAccess\Repositories\IdentityProvider.cs" />
     <Compile Include="DataAccess\Repositories\Interfaces\AsyncRepository.cs" />

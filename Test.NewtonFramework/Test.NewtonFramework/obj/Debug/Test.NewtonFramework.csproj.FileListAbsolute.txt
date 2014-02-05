@@ -29,3 +29,6 @@ C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.New
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.PlatformServices.dll
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\Newton.Testing.pdb
 C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Daniel\Documents\Testing\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Testing\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.dll
+C:\Users\Daniel\Documents\Testing\Infrastructure\Test.NewtonFramework\Test.NewtonFramework\obj\Debug\Test.NewtonFramework.pdb
