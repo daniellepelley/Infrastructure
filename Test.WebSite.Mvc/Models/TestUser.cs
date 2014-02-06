@@ -9,6 +9,7 @@ namespace Test.WebSite.Mvc
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Telephone { get; set; }
         public DateTime DateOfBirth { get; set; }
         public int NumberOfChildren { get; set; }
         public TestAddress Address { get; set; }
@@ -19,5 +20,6 @@ namespace Test.WebSite.Mvc
         public int Number { get; set; }
         public string Street { get; set; }
         public string Postcode { get; set; }
+        public string County { get; set; }
     }
 }

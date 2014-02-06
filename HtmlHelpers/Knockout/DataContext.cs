@@ -8,11 +8,11 @@ using System.Text;
 
 namespace HtmlHelpers
 {
-    public class DataContext<TModel> : HtmlBuilder<TModel>, IDisposable
+    public class DataContext<TModel> : HtmlBuilder, IDisposable
     {
         private List<string> properties = new List<string>();
 
-        public DataContext(HtmlHelper<TModel> helper, IEnumerable<string> properties)
+        public DataContext(HtmlHelper helper, IEnumerable<string> properties)
             : base(helper)
         {
             this.properties.AddRange(properties);

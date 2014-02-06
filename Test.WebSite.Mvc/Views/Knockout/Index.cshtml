@@ -13,8 +13,8 @@
 <h2>Index</h2>
 @*<div data-bind="with: data">*@
 
-@using(Html.KO().DataContext())
-{    
+@using (Html.KO().DataContext())
+{
     @Html.KO().TextBox(model => model.FirstName)
     <div id="Val-FirstName"></div>
 
@@ -22,127 +22,92 @@
     @Html.ValidationMessageFor(model => model.FirstName)
     <div id="Val-LastName"></div>
     
-    
-    using (Html.KO().DataContext(m => m.Address))
+    <label>Telephone</label>
+    @Html.KO().TextBox(model => model.Telephone)
+
+    @Html.KO().TextBox(model => model.Telephone)
+
+    @*using (var dataContext = Html.KO().DataContext(m => m.Address))
     {
-        @Html.KO().TextBox("Number")
-        @Html.KO().TextBox("Street")
-        @Html.KO().TextBox("Postcode")
+        @dataContext.TextBox(model => model.Number)
+        @dataContext.TextBox(model => model.Street)
+        @dataContext.TextBox(model => model.Postcode)
+        @dataContext.TextBox(model => model.County)
     }
-    
-    using (Html.KO().DataContext(m => m.Address))
+
+    using (var dataContext = Html.KO().DataContext(m => m.Address))
     {
-        @Html.KO().TextBox("Number")
-        @Html.KO().TextBox("Street")
-        @Html.KO().TextBox("Postcode")
-    }
-    
+                @dataContext.TextBox(model => model.Postcode)
+        @dataContext.TextBox(model => model.County)
+        
+        @dataContext.TextBox(model => model.Street)
+    @dataContext.TextBox(model => model.Number)
+
+    }*@
 }
 
 
 
 <input type="button" id="Save" value="Save" data-bind="click: Save" />
 
-    @*@(Html.KO().ViewModel())*@
 
-    <script type="text/javascript">
-        var viewModel =
-            {
-                data: {
-                    FirstName: ko.observable(''),
-                    LastName: ko.observable(''),
-                    DateOfBirth: ko.observable(''),
-                    NumberOfChildren: ko.observable(''),
-                    Address: {
-                        Number: ko.observable(''),
-                        Street: ko.observable(''),
-                        Postcode: ko.observable('')
-                    }
-                },
-                Save: function () {
-                    $.ajax({
-                        url: "/Knockout/Save",
-                        data: ko.toJSON(viewModel.data),
-                        type: 'post',
-                        contentType: 'application/json; charset=utf-8'
-                    })
-                .done(function (result) {
-                    viewModel.Load(result)
+<script type="text/javascript">
+
+    var viewModel =
+        {
+            data: {
+                @(Html.KO().ViewModel())
+            },
+            Save: function () {
+                $.ajax({
+                    url: "/Knockout/Save",
+                    data: ko.toJSON(viewModel.data),
+                    type: 'post',
+                    contentType: 'application/json; charset=utf-8'
                 })
-                .fail(function (err) {
+            .done(function (result) {
+                viewModel.Load(result)
+            })
+            .fail(function (err) {
 
-                    var errorData = $.parseJSON(err.responseText);
+                var errorData = $.parseJSON(err.responseText);
 
-                    $("#Val-FirstName").html("");
-                    $("#Val-LastName").html("");
+                $("#Val-FirstName").html("");
+                $("#Val-LastName").html("");
 
-                    for (var p in errorData) {
-                        if (p === '') {
+                for (var p in errorData) {
+                    if (p === '') {
+                    }
+                    else {
+                        $("#Val-" + p).html(errorData[p]);
+                    }
+                }
+            });
+            },
+            Load: function(newData)
+            {
+                //$.mapData(viewModel.data, newData);
+
+                var assignData = function(existingData, newData)
+                {
+                    for (var field in newData) {
+                        if (existingData.hasOwnProperty(field) && typeof (existingData[field]) == "function") {
+                            existingData[field](newData[field]);
                         }
                         else {
-                            $("#Val-" + p).html(errorData[p]);
+                            assignData(existingData[field], newData[field]);
                         }
                     }
-                });
-                },
-                Load: function(newData)
-                {
-                    var assignData = function(existingData, newData)
-                    {
-                        for (var field in newData) {
-                            if (existingData.hasOwnProperty(field) && typeof (existingData[field]) == "function") {
-                                existingData[field](newData[field]);
-                            }
-                            else {
-                                assignData(existingData[field], newData[field]);
-                            }
-                        }
-                    }
-
-                    assignData(this.data, newData);
                 }
+
+                assignData(this.data, newData);
             }
+        }
+    //alert(JSON.stringify(viewModel));
 
-        viewModel.Load(@Html.Raw(Json.Encode(Model)));
+    viewModel.Load(@Html.Raw(Json.Encode(Model)));
+    alert(JSON.stringify(viewModel));
+    ko.applyBindings(viewModel);
+    //alert(JSON.stringify(viewModel));
+</script>
 
-        ko.applyBindings(viewModel);
-    </script>
-
-
-
-    <script type="text/javascript">
-        //var Save = function () {
-        //    $.ajax({
-        //        url: "/Knockout/Save",
-        //        data: ko.toJSON(viewModel.data),
-        //        type: 'post',
-        //        contentType: 'application/json; charset=utf-8'
-        //    })
-        //.done(function (result) {
-        //    for (var field in result) {
-        //        viewModel.data[field](result[field]);
-        //    }
-        //})
-        //.fail(function (err) {
-
-        //    var errorData = $.parseJSON(err.responseText);
-
-        //    $("#Val-FirstName").html("");
-        //    $("#Val-LastName").html("");
-
-        //    for (var p in errorData) {
-        //        if (p === '') {
-        //        }
-        //        else {
-        //            $("#Val-" + p).html(errorData[p]);
-        //        }
-        //    }
-        //});
-        //};
-
-        //$(document).ready(function () {
-        //    $("#Save").click(function () {
-        //        Save();
-        //    })
-        //});
-    </script>

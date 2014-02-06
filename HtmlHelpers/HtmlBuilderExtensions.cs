@@ -109,6 +109,21 @@ namespace HtmlHelpers
                 .BindingType("value"));
         }
 
+
+        public static ElementBuilder TextBox<TModel, TValue>(this DataContext<TModel> dataContext, Expression<Func<TModel, TValue>> expression)
+        {
+            var fieldName = ExpressionHelper.GetExpressionText(expression);
+            var fullBindingName = dataContext.Helper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
+            var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
+
+            //var metadata = ModelMetadata.FromLambdaExpression(expression, dataContext.Helper.ViewData);
+            //var value = metadata.Model;
+
+            return new ElementBuilder(dataContext.Helper, "input").Bind(a =>
+                a.Property(fieldId)
+                .BindingType("value"));
+        }
+
         #endregion
 
         public static KOHtmlBuilder Bind(this KOHtmlBuilder builder, Action<KOBindAttribute> action)
@@ -166,11 +181,11 @@ namespace HtmlHelpers
             return new DataContext<TModel>(builder.Helper, new string[0]);
         }
 
-        public static DataContext<TModel> DataContext<TModel, TValue>(this KOHtmlBuilder<TModel> builder, Expression<Func<TModel, TValue>> expression)
+        public static DataContext<TValue> DataContext<TModel, TValue>(this KOHtmlBuilder<TModel> builder, Expression<Func<TModel, TValue>> expression)
         {
             var properties = ExpressionHelper.GetExpressionText(expression).Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries);
 
-            return new DataContext<TModel>(builder.Helper, properties);
+            return new DataContext<TValue>(builder.Helper, properties);
         }
 
     }
