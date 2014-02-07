@@ -35,3 +35,4 @@ C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Re
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Interfaces.xml
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Linq.xml
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Data\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.csprojResolveAssemblyReference.cache

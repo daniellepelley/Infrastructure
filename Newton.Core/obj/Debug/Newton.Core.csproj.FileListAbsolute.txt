@@ -17,3 +17,4 @@ C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Core\bin\Debug\Newton.Co
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Core\obj\Debug\Newton.Core.dll
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Core\obj\Debug\Newton.Core.pdb
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Core\obj\Debug\Newton.Core.csprojResolveAssemblyReference.cache
+C:\Users\Amy Le Pelley\Source\Repos\Infrastructure\Newton.Core\obj\Debug\Newton.Core.csprojResolveAssemblyReference.cache

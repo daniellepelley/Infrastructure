@@ -320,6 +320,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Knockout\Index.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\TestAddress.cshtml" />
+    <Content Include="Views\Shared\TestAddress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

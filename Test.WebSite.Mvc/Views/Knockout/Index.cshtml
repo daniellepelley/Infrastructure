@@ -8,7 +8,7 @@
 
 <script src="~/scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
 <script src="~/scripts/knockout-2.2.0.debug.js" type="text/javascript"></script>
-
+<script src="~/Scripts/New.js"></script>
 
 <h2>Index</h2>
 @*<div data-bind="with: data">*@
@@ -21,29 +21,27 @@
     @(Html.KO().TextBox(model => model.LastName))
     @Html.ValidationMessageFor(model => model.FirstName)
     <div id="Val-LastName"></div>
-    
+
     <label>Telephone</label>
     @Html.KO().TextBox(model => model.Telephone)
 
     @Html.KO().TextBox(model => model.Telephone)
 
-    @*using (var dataContext = Html.KO().DataContext(m => m.Address))
+    using (var dataContext = Html.KO().DataContext(m => m.Address))
+    {
+        @Html.Partial("TestAddress", Model.Address)
+    }
+
+    <br/>
+    <br/>
+    
+    using (var dataContext = Html.KO().DataContext(m => m.Address))
     {
         @dataContext.TextBox(model => model.Number)
         @dataContext.TextBox(model => model.Street)
         @dataContext.TextBox(model => model.Postcode)
         @dataContext.TextBox(model => model.County)
     }
-
-    using (var dataContext = Html.KO().DataContext(m => m.Address))
-    {
-                @dataContext.TextBox(model => model.Postcode)
-        @dataContext.TextBox(model => model.County)
-        
-        @dataContext.TextBox(model => model.Street)
-    @dataContext.TextBox(model => model.Number)
-
-    }*@
 }
 
 
@@ -84,30 +82,26 @@
                 }
             });
             },
-            Load: function(newData)
-            {
-                //$.mapData(viewModel.data, newData);
+            Load: function (newData) {
+                MapData(this.data, newData);
 
-                var assignData = function(existingData, newData)
-                {
-                    for (var field in newData) {
-                        if (existingData.hasOwnProperty(field) && typeof (existingData[field]) == "function") {
-                            existingData[field](newData[field]);
-                        }
-                        else {
-                            assignData(existingData[field], newData[field]);
-                        }
-                    }
-                }
+                //var assignData = function(existingData, newData)
+                //{
+                //    for (var field in newData) {
+                //        if (existingData.hasOwnProperty(field) && typeof (existingData[field]) == "function") {
+                //            existingData[field](newData[field]);
+                //        }
+                //        else {
+                //            assignData(existingData[field], newData[field]);
+                //        }
+                //    }
+                //}
 
-                assignData(this.data, newData);
+                //assignData(this.data, newData);
             }
         }
-    //alert(JSON.stringify(viewModel));
 
     viewModel.Load(@Html.Raw(Json.Encode(Model)));
-    alert(JSON.stringify(viewModel));
     ko.applyBindings(viewModel);
-    //alert(JSON.stringify(viewModel));
 </script>
 
