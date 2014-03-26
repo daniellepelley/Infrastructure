@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Newton.UI.Mvc;
 using Newton.Validation;
 
 namespace Test.WebSite.Mvc
@@ -12,13 +9,17 @@ namespace Test.WebSite.Mvc
         {
             if (typeof(T) == typeof(TestUser))
             {
-                var ruleProvider = new Newton.UI.Mvc.MvcRuleProvider<TestUser>();
-                ruleProvider.AddRule<string>("FirstName", new Newton.Validation.MaximumLengthRule(4));
-                ruleProvider.AddRule<string>("FirstName", new Newton.Validation.NoSpacesRule());
-                ruleProvider.AddRule<string>("FirstName", new Newton.Validation.IsRequiredRule<string>());
+                var ruleProvider = new MvcRuleProvider<TestUser>();
+                ruleProvider.AddRules(t => t.FirstName,
+                    new IsRequiredRule<string>(),
+                    new MaximumLengthRule(6),
+                    new MinimumLengthRule(2),
+                    new NoSpacesRule());
 
-                ruleProvider.AddRule<string>("LastName", new Newton.Validation.MaximumLengthRule(6));
-                ruleProvider.AddRule<string>("LastName", new Newton.Validation.IsRequiredRule<string>());
+                ruleProvider.AddRules(t => t.LastName, new IsRequiredRule<string>(),
+                    new MaximumLengthRule(6),
+                    new MinimumLengthRule(2));
+                
                 return (IEntityRuleProvider<T>)ruleProvider;
             }
             return null;

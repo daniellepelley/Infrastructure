@@ -22,7 +22,7 @@ namespace Newton.Validation
             set { fieldRules = value; }
         }
 
-        private RuleCollection<T> entityRules = new RuleCollection<T>();
+        private readonly RuleCollection<T> entityRules = new RuleCollection<T>();
         /// <summary>
         /// Rules associated with the whole entity
         /// </summary>

@@ -35,15 +35,9 @@ namespace HtmlHelpers
 
         #endregion
 
-        //public KOViewModelBuilder2<TModel> Save(string url)
-        //{
-        //    this.saveUrl = url;
-        //    return this;
-        //}
-
         public override string ToHtmlString()
         {
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
             sb.AppendLine(@"<script type=""text/javascript"">");
             sb.AppendLine(@"var data = {");
 
@@ -51,13 +45,6 @@ namespace HtmlHelpers
             {
                 sb.AppendLine(string.Format("{0}: ko.observable('{1}'),", property.Name, property.GetValue(model)));
             }
-
-            //if (!string.IsNullOrEmpty(saveUrl))
-            //{
-            //    //var jsonData = ko.toJSON(data);
-            //    var str = @"Save: function () { alert('Save Method'); alert(data);  $.post('" + saveUrl + "', data); },";
-            //    sb.AppendLine(str);
-            //}
 
             sb.AppendLine(@"}");
             sb.AppendLine(@"ko.applyBindings(data);");

@@ -46,13 +46,13 @@ namespace Newton.Validation
             {
                 return string.Empty;
             }
-            else if (value is string)
+            if (value is string)
             {
                 if (string.IsNullOrEmpty(value.ToString()))
                     return Text;
                 return string.Empty;
             }
-            else if (value != null)
+            if (value != null)
             {
                 return string.Empty;
             }

@@ -7,12 +7,13 @@ using System.Web.Mvc;
 using System.Web.Script.Serialization;
 using Newton.Validation;
 using Newton.Extensions;
+using Newtonsoft.Json;
 
 namespace Test.WebSite.Mvc.Controllers
 {
     public class KnockOutController : Controller
     {
-        private IEntityRuleProviderFactory ruleProviderFactory;
+        private readonly IEntityRuleProviderFactory ruleProviderFactory;
 
         public KnockOutController(IEntityRuleProviderFactory ruleProviderFactory)
         {
@@ -22,9 +23,9 @@ namespace Test.WebSite.Mvc.Controllers
         public ActionResult Index()
         {
             var model = new TestUser()
-            { 
-                FirstName = "d",
-                LastName = "a",
+            {
+                FirstName = "Daniel",
+                LastName = "Le Pelley",
                 Address = new TestAddress()
                 {
                     Number = 123,
@@ -32,6 +33,11 @@ namespace Test.WebSite.Mvc.Controllers
                     Postcode = "CR2 3DS"
                 }
             };
+
+            var converter = new JsonRuleConverter();
+            var json = converter.Convert(ruleProviderFactory.Create<TestUser>());
+
+            ViewData["Rules"] = json;
 
             return View(model);
         }
@@ -44,8 +50,6 @@ namespace Test.WebSite.Mvc.Controllers
                 return new JsonErrorResult(modelState);
             else
             {
-                testUser.FirstName += "1";
-                testUser.LastName += "2";
                 return Json(testUser);
             }
         }
@@ -101,5 +105,50 @@ namespace Test.WebSite.Mvc.Controllers
 
             response.Write(new JavaScriptSerializer().Serialize(errors));
         }
+    }
+
+    public class JsonRuleConverter
+    {
+        public string Convert<T>(IEntityRuleProvider<T> ruleProvider)
+        {
+            var outputDictionary = new Dictionary<string, Dictionary<string, string>[]>();
+
+            foreach (var fieldRule in ruleProvider.FieldRules)
+            {
+                var rulesDictionary = new List<Dictionary<string, string>>();
+                foreach (var rule in fieldRule.Value.GetIRules())
+                {
+                    var maximumLengthRule = rule as MaximumLengthRule;
+                    if (maximumLengthRule != null)
+                    {
+                        var ruleDictionary = new Dictionary<string, string>();
+                        ruleDictionary.Add("rule", "MaxLength");
+                        ruleDictionary.Add("maxLength", maximumLengthRule.Length.ToString());
+                        rulesDictionary.Add(ruleDictionary);
+                    }
+
+                    var minimumLengthRule = rule as MinimumLengthRule;
+                    if (minimumLengthRule != null)
+                    {
+                        var ruleDictionary = new Dictionary<string, string>();
+                        ruleDictionary.Add("rule", "MinLength");
+                        ruleDictionary.Add("minLength", minimumLengthRule.Length.ToString());
+                        rulesDictionary.Add(ruleDictionary);
+                    }
+
+                    if (rule.GetType().IsAssignableFrom(typeof(IsRequiredRule<string>)))
+                    {
+                        var ruleDictionary = new Dictionary<string, string>();
+                        ruleDictionary.Add("rule", "IsRequired");
+                        rulesDictionary.Add(ruleDictionary);
+                    }
+                }
+
+                outputDictionary.Add(fieldRule.Key, rulesDictionary.ToArray());
+            }
+
+            return JsonConvert.SerializeObject(outputDictionary);
+        }
+
     }
 }

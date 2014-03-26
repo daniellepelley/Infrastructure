@@ -1,15 +1,13 @@
 ﻿
-var MapData = function(model, data)
-{
-        var assignData = function (model, data) {
-            for (var field in data) {
-                if (model.hasOwnProperty(field) && typeof (model[field]) == "function") {
-                    model[field](data[field]);
-                }
-                else {
-                    assignData(model[field], data[field]);
-                }
+var MapData = function(model, data) {
+    var assignData = function(_model, _data) {
+        for (var field in _data) {
+            if (_model.hasOwnProperty(field) && typeof (_model[field]) == "function") {
+                _model[field](_data[field]);
+            } else {
+                assignData(_model[field], _data[field]);
             }
         }
+    };
         assignData(model, data);
     }

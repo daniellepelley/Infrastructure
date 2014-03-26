@@ -15,93 +15,113 @@
 
 @using (Html.KO().DataContext())
 {
-    @Html.KO().TextBox(model => model.FirstName)
-    <div id="Val-FirstName"></div>
+    <p>
+        <span>FirstName:</span>
+        @Html.KO().TextBox(model => model.FirstName)
+        <span style="background-color: greenyellow" data-bind='visible: FirstName.hasError, text: FirstName.validationMessage'> </span>
+    </p>
 
-    @(Html.KO().TextBox(model => model.LastName))
-    @Html.ValidationMessageFor(model => model.FirstName)
-    <div id="Val-LastName"></div>
-
-    <label>Telephone</label>
-    @Html.KO().TextBox(model => model.Telephone)
-
-    @Html.KO().TextBox(model => model.Telephone)
-
-    using (var dataContext = Html.KO().DataContext(m => m.Address))
-    {
-        @Html.Partial("TestAddress", Model.Address)
-    }
-
-    <br/>
-    <br/>
-    
-    using (var dataContext = Html.KO().DataContext(m => m.Address))
-    {
-        @dataContext.TextBox(model => model.Number)
-        @dataContext.TextBox(model => model.Street)
-        @dataContext.TextBox(model => model.Postcode)
-        @dataContext.TextBox(model => model.County)
-    }
+    <p>
+        <span>LastName:</span>
+        @(Html.KO().TextBox(model => model.LastName))
+        <span data-bind='visible: LastName.hasError, text: LastName.validationMessage'> </span>
+    </p>
 }
 
 
 
 <input type="button" id="Save" value="Save" data-bind="click: Save" />
 
-
+<script src="~/Scripts/Rules.js"></script>
 <script type="text/javascript">
 
+
     var viewModel =
-        {
-            data: {
-                @(Html.KO().ViewModel())
-            },
-            Save: function () {
+    {
+        data: {
+            @(Html.KO().ViewModel())
+        },
+        Save: function() {
+
+            if (assess())
+            {
                 $.ajax({
                     url: "/Knockout/Save",
                     data: ko.toJSON(viewModel.data),
                     type: 'post',
                     contentType: 'application/json; charset=utf-8'
                 })
-            .done(function (result) {
-                viewModel.Load(result)
-            })
-            .fail(function (err) {
+                    .done(function(result) {
+                        viewModel.Load(result);
+                    })
+                    .fail(function(err) {
+                        var errorData = $.parseJSON(err.responseText);
+                        processBrokenRules(errorData);
+                    });
+            }
+        },
+        Load: function(newData) {
+            MapData(this.data, newData);
+        }
+    };
 
-                var errorData = $.parseJSON(err.responseText);
 
-                $("#Val-FirstName").html("");
-                $("#Val-LastName").html("");
 
-                for (var p in errorData) {
-                    if (p === '') {
-                    }
-                    else {
-                        $("#Val-" + p).html(errorData[p]);
-                    }
-                }
-            });
-            },
-            Load: function (newData) {
-                MapData(this.data, newData);
+    var entityRules = @(Html.Raw(ViewBag.Rules));
 
-                //var assignData = function(existingData, newData)
-                //{
-                //    for (var field in newData) {
-                //        if (existingData.hasOwnProperty(field) && typeof (existingData[field]) == "function") {
-                //            existingData[field](newData[field]);
-                //        }
-                //        else {
-                //            assignData(existingData[field], newData[field]);
-                //        }
-                //    }
-                //}
+    var fieldRuleProviders = function () {
+        var output = {};
+        for (var field in entityRules) {
+            var fieldRuleProvider = new FieldRuleProvider();
+            for (var rule in entityRules[field]) {
+                fieldRuleProvider.rules.push(createRule(entityRules[field][rule]));
+            }
+            output[field] = fieldRuleProvider;
+        }
+        return output;
+    };
 
-                //assignData(this.data, newData);
+    var entityRuleProvider = new EntityRuleProvider(fieldRuleProviders());
+
+    viewModel.data.FirstName = ko.observable('').extend({ validator: entityRuleProvider.fieldRuleProviders.FirstName });
+    viewModel.data.LastName = ko.observable('').extend({ validator: entityRuleProvider.fieldRuleProviders.LastName });
+
+    var invalidFunc = function (brokenRule, brokenRules) {
+        $('#Val-' + brokenRule).text(brokenRules[0]);
+
+        //$('#' + brokenRule).addClass("invalid");
+        //$("span[data-valmsg-for='" + brokenRule + "']").text(brokenRules[0]);
+        //$('#' + brokenRule + '_message').text(brokenRules[0]);
+    };
+
+    var validFunc = function (brokenRule, brokenRules) {
+        $('#Val-' + brokenRule).text('');
+        //$('#' + brokenRule).removeClass("invalid");
+        //$("span[data-valmsg-for='" + brokenRule + "']").text('');
+        //$('#' + brokenRule + '_message').text('');
+    };
+
+    var assess = function () {
+        var input = viewModel.data;
+        var brokenRules = entityRuleProvider.check(input);
+
+        return processBrokenRules(brokenRules);
+    };
+
+    var processBrokenRules = function(brokenRules) {
+        var valid = true;
+        for (var brokenRule in brokenRules) {
+            if (brokenRules[brokenRule].length > 0) {
+                valid = false;
+                invalidFunc(brokenRule, brokenRules[brokenRule]);
+            } else {
+                validFunc(brokenRule, brokenRules[brokenRule]);
             }
         }
+        return valid;
+    };
+
 
     viewModel.Load(@Html.Raw(Json.Encode(Model)));
     ko.applyBindings(viewModel);
 </script>
-

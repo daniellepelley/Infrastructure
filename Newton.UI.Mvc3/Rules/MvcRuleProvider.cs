@@ -14,8 +14,8 @@ namespace Newton.UI.Mvc3
     /// A class representing a rule provider that works with the Mvc framework
     /// </summary>
     public class MvcRuleProvider<T>
-        : IMvcRuleProvider<T>,
-        IEntityRuleProvider<T>
+        //: IMvcRuleProvider<T>,
+        : IEntityRuleProvider<T>
     {
         #region Properties
 
@@ -78,41 +78,41 @@ namespace Newton.UI.Mvc3
 
         public T Clean(T model)
         {
-            return model;
+            return entityRuleProvider.Clean(model);
         }
 
-        /// <summary>
-        /// Validates the model and returns a ModelStateDictionary
-        /// </summary>
-        public ModelStateDictionary ValidateForMvc(T model)
-        {
-            ModelStateDictionary modelState = new ModelStateDictionary();
-            IDictionary<string, IEnumerable<string>> result = Validate(model);
+        ///// <summary>
+        ///// Validates the model and returns a ModelStateDictionary
+        ///// </summary>
+        //public ModelStateDictionary ValidateForMvc(T model)
+        //{
+        //    ModelStateDictionary modelState = new ModelStateDictionary();
+        //    IDictionary<string, IEnumerable<string>> result = Validate(model);
 
-            foreach (var keyValuePair in result)
-            {
-                foreach (string brokenRule in keyValuePair.Value)
-                {
-                    modelState.AddModelError(keyValuePair.Key, brokenRule);
-                }
-            }
-            return modelState;
-        }
+        //    foreach (var keyValuePair in result)
+        //    {
+        //        foreach (string brokenRule in keyValuePair.Value)
+        //        {
+        //            modelState.AddModelError(keyValuePair.Key, brokenRule);
+        //        }
+        //    }
+        //    return modelState;
+        //}
 
-        /// <summary>
-        /// Creates a collection of UnobstrutiveJava html attributes
-        /// </summary>
-        public IDictionary<string, IDictionary<string, object>> GetUnobstrutiveJava()
-        {
-            Dictionary<string, IDictionary<string, object>> output = new Dictionary<string, IDictionary<string, object>>();
+        ///// <summary>
+        ///// Creates a collection of UnobstrutiveJava html attributes
+        ///// </summary>
+        //public IDictionary<string, IDictionary<string, object>> GetUnobstrutiveJava()
+        //{
+        //    Dictionary<string, IDictionary<string, object>> output = new Dictionary<string, IDictionary<string, object>>();
 
-            foreach (var keyValuePair in FieldRules)
-            {
-                IDictionary<string, object> htmlAttributes = keyValuePair.Value.GetUnobstrutiveJava();
-                output.Add(keyValuePair.Key, htmlAttributes);
-            }
-            return output;
-        }
+        //    foreach (var keyValuePair in FieldRules)
+        //    {
+        //        IDictionary<string, object> htmlAttributes = keyValuePair.Value.GetUnobstrutiveJava();
+        //        output.Add(keyValuePair.Key, htmlAttributes);
+        //    }
+        //    return output;
+        //}
 
         #endregion
     }

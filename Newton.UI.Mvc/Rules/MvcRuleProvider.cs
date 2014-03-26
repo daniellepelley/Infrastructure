@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.Mvc;
 using System.ComponentModel;
@@ -66,6 +67,28 @@ namespace Newton.UI.Mvc
         public void AddRule<TFieldType>(string fieldName, IRule<TFieldType> rule)
         {
             entityRuleProvider.AddRule<TFieldType>(fieldName, rule);
+        }
+
+        /// <summary>
+        /// Adds a rule to the rule provider
+        /// </summary>
+        public void AddRule<TFieldType>(Expression<Func<T, TFieldType>> expression, IRule<TFieldType> rule)
+        {
+            var fieldName = ExpressionHelper.GetExpressionText(expression);
+            entityRuleProvider.AddRule<TFieldType>(fieldName, rule);
+        }
+
+        /// <summary>
+        /// Adds a rule to the rule provider
+        /// </summary>
+        public void AddRules<TFieldType>(Expression<Func<T, TFieldType>> expression, params IRule<TFieldType>[] rules)
+        {
+            var fieldName = ExpressionHelper.GetExpressionText(expression);
+
+            foreach (var rule in rules)
+            {
+                entityRuleProvider.AddRule(fieldName, rule);
+            }
         }
 
         /// <summary>

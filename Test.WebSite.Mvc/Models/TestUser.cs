@@ -13,6 +13,12 @@ namespace Test.WebSite.Mvc
         public DateTime DateOfBirth { get; set; }
         public int NumberOfChildren { get; set; }
         public TestAddress Address { get; set; }
+        public string Another { get; set; }
+
+        public TestUser()
+        {
+            Another = "Hi";
+        }
     }
 
     public class TestAddress
