@@ -18,7 +18,7 @@
     <p>
         <span>FirstName:</span>
         @Html.KO().TextBox(model => model.FirstName)
-        <span style="background-color: greenyellow" data-bind='visible: FirstName.hasError, text: FirstName.validationMessage'> </span>
+        <span data-bind='visible: FirstName.hasError, text: FirstName.validationMessage'> </span>
     </p>
 
     <p>
@@ -87,18 +87,13 @@
     viewModel.data.LastName = ko.observable('').extend({ validator: entityRuleProvider.fieldRuleProviders.LastName });
 
     var invalidFunc = function (brokenRule, brokenRules) {
-        $('#Val-' + brokenRule).text(brokenRules[0]);
-
-        //$('#' + brokenRule).addClass("invalid");
-        //$("span[data-valmsg-for='" + brokenRule + "']").text(brokenRules[0]);
-        //$('#' + brokenRule + '_message').text(brokenRules[0]);
+        viewModel.data[brokenRule].hasError(true);
+        viewModel.data[brokenRule].validationMessage(brokenRules[0]);
     };
 
     var validFunc = function (brokenRule, brokenRules) {
-        $('#Val-' + brokenRule).text('');
-        //$('#' + brokenRule).removeClass("invalid");
-        //$("span[data-valmsg-for='" + brokenRule + "']").text('');
-        //$('#' + brokenRule + '_message').text('');
+        viewModel.data[brokenRule].hasError(false);
+        viewModel.data[brokenRule].validationMessage('');
     };
 
     var assess = function () {
