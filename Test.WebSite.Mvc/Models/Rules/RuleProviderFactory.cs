@@ -10,13 +10,16 @@ namespace Test.WebSite.Mvc
             if (typeof(T) == typeof(TestUser))
             {
                 var ruleProvider = new MvcRuleProvider<TestUser>();
-                ruleProvider.AddRules(t => t.FirstName,
+                ruleProvider.AddRules(
+                    t => t.FirstName,
                     new IsRequiredRule<string>(),
                     new MaximumLengthRule(6),
                     new MinimumLengthRule(2),
                     new NoSpacesRule());
 
-                ruleProvider.AddRules(t => t.LastName, new IsRequiredRule<string>(),
+                ruleProvider.AddRules(
+                    t => t.LastName,
+                    new IsRequiredRule<string>(),
                     new MaximumLengthRule(6),
                     new MinimumLengthRule(2));
                 

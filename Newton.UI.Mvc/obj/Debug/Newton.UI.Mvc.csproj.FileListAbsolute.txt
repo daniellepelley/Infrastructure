@@ -58,3 +58,4 @@ C:\Users\Daniel\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\System.Net.H
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.dll
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.UI.Mvc\obj\Debug\Newton.UI.Mvc.pdb
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.UI.Mvc\bin\Debug\Newtonsoft.Json.dll

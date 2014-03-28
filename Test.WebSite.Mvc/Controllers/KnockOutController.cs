@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Routing;
 using System.Web.Script.Serialization;
+using Microsoft.Ajax.Utilities;
 using Newton.Validation;
 using Newton.Extensions;
 using Newtonsoft.Json;
@@ -13,14 +16,19 @@ namespace Test.WebSite.Mvc.Controllers
 {
     public class KnockOutController : Controller
     {
-        private readonly IEntityRuleProviderFactory ruleProviderFactory;
+        private readonly IEntityRuleProviderFactory _ruleProviderFactory;
 
         public KnockOutController(IEntityRuleProviderFactory ruleProviderFactory)
         {
-            this.ruleProviderFactory = ruleProviderFactory;
+            this._ruleProviderFactory = ruleProviderFactory;
         }
 
         public ActionResult Index()
+        {
+            return RedirectToAction<KnockOutController>(c => c.Save(new TestUser() { FirstName = "Serialised" }));
+        }
+
+        public ActionResult SetUp()
         {
             var model = new TestUser()
             {
@@ -35,16 +43,101 @@ namespace Test.WebSite.Mvc.Controllers
             };
 
             var converter = new JsonRuleConverter();
-            var json = converter.Convert(ruleProviderFactory.Create<TestUser>());
+            var json = converter.Convert(_ruleProviderFactory.Create<TestUser>());
 
             ViewData["Rules"] = json;
 
-            return View(model);
+            return View("Index", model);
         }
+
+        protected RedirectToRouteResult RedirectToAction<T>(Expression<Action<T>> action) where T : Controller
+        {
+            var body = action.Body as MethodCallExpression;
+
+            if (body == null)
+            {
+                throw new ArgumentException("Expression must be a method call.");
+            }
+
+            if (body.Object != action.Parameters[0])
+            {
+                throw new ArgumentException("Method call must target lambda argument.");
+            }
+
+            string actionName = body.Method.Name;
+
+            var attributes = body.Method.GetCustomAttributes(typeof(ActionNameAttribute), false);
+            if (attributes.Length > 0)
+            {
+                var actionNameAttr = (ActionNameAttribute)attributes[0];
+                actionName = actionNameAttr.Name;
+            }
+
+            string controllerName = typeof(T).Name;
+
+            if (controllerName.EndsWith("Controller", StringComparison.OrdinalIgnoreCase))
+            {
+                controllerName = controllerName.Remove(controllerName.Length - 10, 10);
+            }
+
+            return RedirectToAction(
+                actionName,
+                controllerName
+                );
+        }
+
+        protected RedirectToRouteResult RedirectToAction<T>(Expression<Action<T>> action, RouteValueDictionary values) where T : Controller
+        {
+            var body = action.Body as MethodCallExpression;
+
+            if (body == null)
+            {
+                throw new ArgumentException("Expression must be a method call.");
+            }
+
+            if (body.Object != action.Parameters[0])
+            {
+                throw new ArgumentException("Method call must target lambda argument.");
+            }
+
+            string actionName = body.Method.Name;
+
+            var attributes = body.Method.GetCustomAttributes(typeof(ActionNameAttribute), false);
+            if (attributes.Length > 0)
+            {
+                var actionNameAttr = (ActionNameAttribute)attributes[0];
+                actionName = actionNameAttr.Name;
+            }
+
+            string controllerName = typeof(T).Name;
+
+            if (controllerName.EndsWith("Controller", StringComparison.OrdinalIgnoreCase))
+            {
+                controllerName = controllerName.Remove(controllerName.Length - 10, 10);
+            }
+
+            //RouteValueDictionary defaults = LinkBuilder.BuildParameterValuesFromExpression(body) ?? new RouteValueDictionary();
+
+            //values = values ?? new RouteValueDictionary();
+            //values.Add("controller", controllerName);
+            //values.Add("action", actionName);
+
+            //if (defaults != null)
+            //{
+            //    foreach (var pair in defaults.Where(p => p.Value != null))
+            //    {
+            //        values.Add(pair.Key, pair.Value);
+            //    }
+            //}
+
+            return new RedirectToRouteResult(values);
+        }
+
+
 
         public ActionResult Save(TestUser testUser)
         {
-            var modelState = ruleProviderFactory.Create<TestUser>().ValidateForMvc(testUser);
+            var modelState = _ruleProviderFactory.Create<TestUser>().ValidateForMvc(testUser);
 
             if (!modelState.IsValid)
                 return new JsonErrorResult(modelState);
@@ -79,18 +172,11 @@ namespace Test.WebSite.Mvc.Controllers
                 throw new InvalidOperationException(JSONREQUEST_GETNOTALLOWED);
             }
 
-            HttpResponseBase response = context.HttpContext.Response;
+            var response = context.HttpContext.Response;
 
             response.StatusCode = (int)HttpStatusCode.BadRequest;
 
-            if (!String.IsNullOrEmpty(ContentType))
-            {
-                response.ContentType = ContentType;
-            }
-            else
-            {
-                response.ContentType = "application/json";
-            }
+            response.ContentType = !String.IsNullOrEmpty(ContentType) ? ContentType : "application/json";
 
             if (ContentEncoding != null)
             {
