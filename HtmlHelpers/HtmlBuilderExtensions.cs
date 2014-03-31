@@ -12,6 +12,11 @@ namespace HtmlHelpers
 {
     public static class HtmlBuilderExtensions
     {
+        public static ModelMetadata ModelMetadataFor<TModel, TValue>(this HtmlHelper<TModel> helper, Expression<Func<TModel, TValue>> expression)
+        {
+            return ModelMetadata.FromLambdaExpression(expression, helper.ViewData);
+        }
+
         public static KOHtmlBuilder KO(this WebViewPage page)
         {
             return new KOHtmlBuilder(page.Html);
@@ -51,35 +56,19 @@ namespace HtmlHelpers
         {
             return new HtmlBuilder<TModel>(helper);
         }
-
-        //public static MvcHtmlString CustomHelperFor<TModel, TValue>(this HtmlHelper<TModel> html, Expression<Func<TModel, TValue>> expression)
-        //{
-        //    var fieldName = ExpressionHelper.GetExpressionText(expression);
-        //    var fullBindingName = html.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
-        //    var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
-
-        //    var metadata = ModelMetadata.FromLambdaExpression(expression, html.ViewData);
-        //    var value = metadata.Model;
-
-        //    TagBuilder tag = new TagBuilder("input");
-        //    tag.Attributes.Add("name", fullBindingName);
-        //    tag.Attributes.Add("id", fieldId);
-        //    tag.Attributes.Add("type", "text");
-        //    tag.Attributes.Add("value", value == null ? "" : value.ToString());
-
-        //    var validationAttributes = html.GetUnobtrusiveValidationAttributes(fullBindingName, metadata);
-        //    foreach (var key in validationAttributes.Keys)
-        //    {
-        //        tag.Attributes.Add(key, validationAttributes[key].ToString());
-        //    }
-
-        //    return new MvcHtmlString(tag.ToString(TagRenderMode.SelfClosing));
-        //}
     }
 
     public static class KnockoutExtensions
     {
         #region Elements
+
+        public static IHtmlString ValidationMessage<TModel, TValue>(this KOHtmlBuilder<TModel> htmlBuilder, Expression<Func<TModel, TValue>> expression)
+        {
+            var fieldName = ExpressionHelper.GetExpressionText(expression);
+            return new HtmlString(
+                string.Format("<span data-bind='visible: {0}.hasError, text: {0}.validationMessage'> </span>",
+                    fieldName));
+        }
 
         public static ElementBuilder TextBox<TModel, TValue>(this KOHtmlBuilder<TModel> htmlBuilder, Expression<Func<TModel, TValue>> expression)
         {

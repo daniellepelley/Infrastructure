@@ -16,19 +16,17 @@
 @using (Html.KO().DataContext())
 {
     <p>
-        <span>FirstName:</span>
+        @Html.LabelFor(model => model.FirstName) 
         @Html.KO().TextBox(model => model.FirstName)
-        <span data-bind='visible: FirstName.hasError, text: FirstName.validationMessage'> </span>
+        @Html.KO().ValidationMessage(model => model.FirstName)
     </p>
 
     <p>
-        <span>LastName:</span>
+        @Html.LabelFor(model => model.LastName)
         @(Html.KO().TextBox(model => model.LastName))
         <span data-bind='visible: LastName.hasError, text: LastName.validationMessage'> </span>
     </p>
 }
-
-
 
 <input type="button" id="Save" value="Save" data-bind="click: Save" />
 

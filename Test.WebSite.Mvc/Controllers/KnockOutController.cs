@@ -7,10 +7,10 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Script.Serialization;
-using Microsoft.Ajax.Utilities;
 using Newton.Validation;
 using Newton.Extensions;
 using Newtonsoft.Json;
+
 
 namespace Test.WebSite.Mvc.Controllers
 {
@@ -25,11 +25,6 @@ namespace Test.WebSite.Mvc.Controllers
 
         public ActionResult Index()
         {
-            return RedirectToAction<KnockOutController>(c => c.Save(new TestUser() { FirstName = "Serialised" }));
-        }
-
-        public ActionResult SetUp()
-        {
             var model = new TestUser()
             {
                 FirstName = "Daniel",
@@ -42,13 +37,27 @@ namespace Test.WebSite.Mvc.Controllers
                 }
             };
 
+            return RedirectToAction<KnockOutController>(c => c.RedirectTarget(model));
+        }
+
+        public ActionResult RedirectTarget(TestUser testUser)
+        {
             var converter = new JsonRuleConverter();
             var json = converter.Convert(_ruleProviderFactory.Create<TestUser>());
 
             ViewData["Rules"] = json;
 
-            return View("Index", model);
+            return View("Index", testUser);
         }
+
+
+        //public ActionResult SetUp()
+        //{
+
+
+
+        //    return View("Index", model);
+        //}
 
         protected RedirectToRouteResult RedirectToAction<T>(Expression<Action<T>> action) where T : Controller
         {
@@ -66,6 +75,10 @@ namespace Test.WebSite.Mvc.Controllers
 
             string actionName = body.Method.Name;
 
+
+            body.Method.GetParameters();
+
+
             var attributes = body.Method.GetCustomAttributes(typeof(ActionNameAttribute), false);
             if (attributes.Length > 0)
             {
@@ -80,10 +93,29 @@ namespace Test.WebSite.Mvc.Controllers
                 controllerName = controllerName.Remove(controllerName.Length - 10, 10);
             }
 
+            var parameters = GetParams(action);
+
             return RedirectToAction(
                 actionName,
-                controllerName
+                controllerName,
+                parameters[0] 
                 );
+        }
+
+        public object[] GetParams<T>(Expression<Action<T>> action)
+        {
+            return ((MethodCallExpression)action.Body).Arguments.Cast<MemberExpression>().Select(e => GetValue(e)).ToArray();
+        }
+
+        private object GetValue(MemberExpression member)
+        {
+            var objectMember = Expression.Convert(member, typeof(object));
+
+            var getterLambda = Expression.Lambda<Func<object>>(objectMember);
+
+            var getter = getterLambda.Compile();
+
+            return getter();
         }
 
         protected RedirectToRouteResult RedirectToAction<T>(Expression<Action<T>> action, RouteValueDictionary values) where T : Controller
@@ -116,24 +148,8 @@ namespace Test.WebSite.Mvc.Controllers
                 controllerName = controllerName.Remove(controllerName.Length - 10, 10);
             }
 
-            //RouteValueDictionary defaults = LinkBuilder.BuildParameterValuesFromExpression(body) ?? new RouteValueDictionary();
-
-            //values = values ?? new RouteValueDictionary();
-            //values.Add("controller", controllerName);
-            //values.Add("action", actionName);
-
-            //if (defaults != null)
-            //{
-            //    foreach (var pair in defaults.Where(p => p.Value != null))
-            //    {
-            //        values.Add(pair.Key, pair.Value);
-            //    }
-            //}
-
             return new RedirectToRouteResult(values);
         }
-
-
 
         public ActionResult Save(TestUser testUser)
         {

@@ -23,7 +23,7 @@ namespace Test.WebSite.Mvc
             //UnityContainer container = new UnityContainer();
             //UnityDependencyResolver resolver = new UnityDependencyResolver(container);
 
-            Bootstrapper.Initialise();
+            var container = Bootstrapper.Initialise();
 
             //Bootstrapper.RegisterTypes(container);
             WebApiConfig.Register(GlobalConfiguration.Configuration);
@@ -31,6 +31,9 @@ namespace Test.WebSite.Mvc
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            ModelMetadataProviders.Current = container.Resolve<DataAnnotationsModelMetadataProvider>();
+
         }
     }
 }
