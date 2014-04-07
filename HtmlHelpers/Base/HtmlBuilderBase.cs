@@ -15,9 +15,9 @@ namespace HtmlHelpers
     {
         #region Properties
 
-        public List<string> Adds = new List<string>();
+        internal List<string> Adds = new List<string>();
 
-        public List<HtmlAttribute> attributes = new List<HtmlAttribute>();
+        internal List<HtmlAttribute> attributes = new List<HtmlAttribute>();
        
         #endregion
 

@@ -49,7 +49,9 @@
     <Compile Include="Base\IAttributeBuilder.cs" />
     <Compile Include="Base\IHtmlBuilder.cs" />
     <Compile Include="Base\IHtmlBuilder_TModel.cs" />
+    <Compile Include="KnockoutExtensions.cs" />
     <Compile Include="Knockout\DataContext.cs" />
+    <Compile Include="Knockout\HtmlStringBuilder.cs" />
     <Compile Include="Knockout\KOHtmlBuilder_TModel.cs" />
     <Compile Include="Knockout\KOBindAttribute.cs" />
     <Compile Include="HtmlBuilderExtensions.cs" />

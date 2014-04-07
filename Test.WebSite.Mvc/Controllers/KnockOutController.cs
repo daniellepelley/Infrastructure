@@ -40,6 +40,52 @@ namespace Test.WebSite.Mvc.Controllers
             return RedirectToAction<KnockOutController>(c => c.RedirectTarget(model));
         }
 
+        public ActionResult Table()
+        {
+            var model = new List<TestUser>(
+                new[]
+                {
+                    new TestUser()
+                    {
+                        FirstName = "Daniel",
+                        LastName = "Le Pelley",
+                        Address = new TestAddress()
+                        {
+                            Number = 123,
+                            Street = "Main Street",
+                            Postcode = "CR2 3DS"
+                        }
+                    },
+                    new TestUser()
+                    {
+                        FirstName = "Daniel",
+                        LastName = "Le Pelley",
+                        Address = new TestAddress()
+                        {
+                            Number = 123,
+                            Street = "Main Street",
+                            Postcode = "CR2 3DS"
+                        }
+                    },
+                    new TestUser()
+                    {
+                        FirstName = "Daniel",
+                        LastName = "Le Pelley",
+                        Address = new TestAddress()
+                        {
+                            Number = 123,
+                            Street = "Main Street",
+                            Postcode = "CR2 3DS"
+                        }
+                    }
+                });
+
+            return View(model);
+        }
+
+
+
+
         public ActionResult RedirectTarget(TestUser testUser)
         {
             var converter = new JsonRuleConverter();

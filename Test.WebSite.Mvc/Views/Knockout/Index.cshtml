@@ -24,9 +24,12 @@
     <p>
         @Html.LabelFor(model => model.LastName)
         @(Html.KO().TextBox(model => model.LastName))
+
         <span data-bind='visible: LastName.hasError, text: LastName.validationMessage'> </span>
     </p>
 }
+
+
 
 <input type="button" id="Save" value="Save" data-bind="click: Save" />
 

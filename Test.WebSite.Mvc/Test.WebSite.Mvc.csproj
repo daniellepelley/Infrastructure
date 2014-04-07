@@ -197,7 +197,11 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KnockOutController.cs" />
+    <Compile Include="Development\AddColonMetaDataFilter.cs" />
     <Compile Include="Development\CustomMetaDataProvider.cs" />
+    <Compile Include="Development\IMetaDataFilter.cs" />
+    <Compile Include="Development\IsRequiredMetaDataFilter.cs" />
+    <Compile Include="Development\SplitWordsMetaDataFilter.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -324,6 +328,7 @@
     <Content Include="Views\Knockout\Index.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\TestAddress.cshtml" />
     <Content Include="Views\Shared\TestAddress.cshtml" />
+    <Content Include="Views\Knockout\Table.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
