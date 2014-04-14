@@ -49,14 +49,17 @@
     <Compile Include="Base\IAttributeBuilder.cs" />
     <Compile Include="Base\IHtmlBuilder.cs" />
     <Compile Include="Base\IHtmlBuilder_TModel.cs" />
-    <Compile Include="KnockoutExtensions.cs" />
+    <Compile Include="Extensions\Knockout\TextBoxExtensions.cs" />
+    <Compile Include="Extensions\Knockout\KnockoutExtensions.cs" />
     <Compile Include="Knockout\DataContext.cs" />
+    <Compile Include="Knockout\KOHtmlStringBuilder.cs" />
     <Compile Include="Knockout\HtmlStringBuilder.cs" />
     <Compile Include="Knockout\KOHtmlBuilder_TModel.cs" />
     <Compile Include="Knockout\KOBindAttribute.cs" />
-    <Compile Include="HtmlBuilderExtensions.cs" />
+    <Compile Include="Extensions\HtmlBuilderExtensions.cs" />
     <Compile Include="Knockout\KOViewModelBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TagTemplate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,7 +5,7 @@ using System.Web.Mvc;
 
 namespace HtmlHelpers
 {
-    public static class KnockoutExtensions
+    public static partial class KnockoutExtensions
     {
         #region Elements
 
@@ -17,46 +17,46 @@ namespace HtmlHelpers
                     fieldName));
         }
 
-        public static HtmlStringBuilder TextBox<TModel, TValue>(this KOHtmlBuilder<TModel> htmlBuilder, Expression<Func<TModel, TValue>> expression)
-        {
-            var fieldName = ExpressionHelper.GetExpressionText(expression);
-            var fullBindingName = htmlBuilder.Helper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
-            var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
+        //public static HtmlStringBuilder TextBoxFor<TModel, TValue>(this KOHtmlBuilder<TModel> htmlBuilder, Expression<Func<TModel, TValue>> expression)
+        //{
+        //    var fieldName = ExpressionHelper.GetExpressionText(expression);
+        //    var fullBindingName = htmlBuilder.Helper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
+        //    var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
 
-            var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input")
-                .Bind(a => a.Property(fieldId)
-                 .BindingType("value"));
+        //    var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input")
+        //        .Bind(a => a.Property(fieldId)
+        //         .BindingType("value"));
 
-            return new HtmlStringBuilder(elementBuilder);
-        }
+        //    return new HtmlStringBuilder(elementBuilder);
+        //}
 
-        public static HtmlStringBuilder TextBox(this KOHtmlBuilder htmlBuilder, string property)
-        {
-            var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input").Bind(a =>
-                a.Property(property)
-                    .BindingType("value"));
-            return new HtmlStringBuilder(elementBuilder);
-        }
+        //public static HtmlStringBuilder TextBoxFor(this KOHtmlBuilder htmlBuilder, string property)
+        //{
+        //    var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input").Bind(a =>
+        //        a.Property(property)
+        //            .BindingType("value"));
+        //    return new HtmlStringBuilder(elementBuilder);
+        //}
 
-        public static HtmlStringBuilder TextBox<TModel>(this KOHtmlBuilder<TModel> htmlBuilder, string property)
-        {
-            var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input").Bind(a =>
-                a.Property(property)
-                    .BindingType("value"));
+        //public static HtmlStringBuilder TextBoxFor<TModel>(this KOHtmlBuilder<TModel> htmlBuilder, string property)
+        //{
+        //    var elementBuilder = new ElementBuilder(htmlBuilder.Helper, "input").Bind(a =>
+        //        a.Property(property)
+        //            .BindingType("value"));
 
-            return new HtmlStringBuilder(elementBuilder);
-        }
+        //    return new HtmlStringBuilder(elementBuilder);
+        //}
 
-        public static ElementBuilder TextBox<TModel, TValue>(this DataContext<TModel> dataContext, Expression<Func<TModel, TValue>> expression)
-        {
-            var fieldName = ExpressionHelper.GetExpressionText(expression);
-            var fullBindingName = dataContext.Helper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
-            var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
+        //public static ElementBuilder TextBoxFor<TModel, TValue>(this DataContext<TModel> dataContext, Expression<Func<TModel, TValue>> expression)
+        //{
+        //    var fieldName = ExpressionHelper.GetExpressionText(expression);
+        //    var fullBindingName = dataContext.Helper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(fieldName);
+        //    var fieldId = TagBuilder.CreateSanitizedId(fullBindingName);
 
-            return new ElementBuilder(dataContext.Helper, "input").Bind(a =>
-                a.Property(fieldId)
-                    .BindingType("value"));
-        }
+        //    return new ElementBuilder(dataContext.Helper, "input").Bind(a =>
+        //        a.Property(fieldId)
+        //            .BindingType("value"));
+        //}
 
         #endregion
 
@@ -72,7 +72,7 @@ namespace HtmlHelpers
 
         public static ElementBuilder Bind(this ElementBuilder builder, Action<KOBindAttribute> action)
         {
-            KOBindAttribute setUp = new KOBindAttribute();
+            var setUp = new KOBindAttribute();
             action(setUp);
             builder.Adds.Add(setUp);
             return builder;

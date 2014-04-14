@@ -17,13 +17,13 @@
 {
     <p>
         @Html.LabelFor(model => model.FirstName) 
-        @Html.KO().TextBox(model => model.FirstName)
+        @(Html.KO().TextBoxFor(model => model.FirstName))
         @Html.KO().ValidationMessage(model => model.FirstName)
     </p>
 
     <p>
         @Html.LabelFor(model => model.LastName)
-        @(Html.KO().TextBox(model => model.LastName))
+        @(Html.KO().TextBoxFor(model => model.LastName))
 
         <span data-bind='visible: LastName.hasError, text: LastName.validationMessage'> </span>
     </p>

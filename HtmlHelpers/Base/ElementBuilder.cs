@@ -26,9 +26,23 @@ namespace HtmlHelpers
             this.elementName = tagName.ToString().ToLower();
         }
 
+        public static string Render(TagTemplate tagTemplate)
+        {
+            var stringBuilder = new StringBuilder();
+
+            var tag = new TagBuilder(tagTemplate.TagName);
+
+            foreach (var attr in tagTemplate.Attributes)
+                tag.Attributes.Add(attr.Key, attr.Value);
+
+            stringBuilder.Append(tag.ToString(TagRenderMode.SelfClosing));
+
+            return new MvcHtmlString(stringBuilder.ToString()).ToHtmlString();
+        }
+
         public override string ToHtmlString()
         {
-            TagBuilder tag = new TagBuilder(elementName);
+            var tag = new TagBuilder(elementName);
 
             tag.ToString(TagRenderMode.EndTag);
 
