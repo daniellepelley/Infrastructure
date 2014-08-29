@@ -51,3 +51,11 @@ C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\bin\Debug\System
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.dll
 C:\Users\Daniel\Documents\Testing\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.pdb
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.dll
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Testing.pdb
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.dll
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.pdb
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\bin\Debug\Newton.Data.xml
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.dll
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Testing\obj\Debug\Newton.Testing.pdb

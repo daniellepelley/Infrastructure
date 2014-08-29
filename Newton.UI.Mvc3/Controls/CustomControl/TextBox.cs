@@ -60,7 +60,7 @@ namespace Newton.UI.Mvc3.Controls
 
         public InputControl Rules(IRuleCollection ruleCollection)
         {
-            this.htmlAttributes.Merge(ruleCollection.GetUnobstrutiveJava(), true);
+            htmlAttributes.Merge(ruleCollection.GetUnobstrutiveJava(), true);
             return this;
         }
 

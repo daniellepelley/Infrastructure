@@ -47,6 +47,6 @@ C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\bin\Debug\System.Reactiv
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Interfaces.xml
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\bin\Debug\System.Reactive.Linq.xml
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\bin\Debug\System.Reactive.PlatformServices.xml
-C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.dll
 C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\obj\Debug\Newton.Data.pdb
+C:\Users\Daniel\Source\Repos\Infrastructure\Newton.Data\bin\Debug\Newton.Data.dll.config
