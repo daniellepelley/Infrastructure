@@ -28,17 +28,17 @@ namespace Newton.Data
         /// <summary>
         /// Saves the entity to the base data
         /// </summary>
-        Task SaveAsync(T entity, Action<T> callBack);
+        Task SaveAsync(T entity);
 
         /// <summary>
         /// Deletes the entity from the base data
         /// </summary>
-        Task DeleteAsync(T entity, Action<T> callBack);
+        Task DeleteAsync(T entity);
 
         /// <summary>
         /// Creates a new entity of type T in the base data
         /// </summary>
-        Task CreateAsync(T entity, Action<T> callBack);
+        Task CreateAsync(T entity);
 
         #endregion
     }

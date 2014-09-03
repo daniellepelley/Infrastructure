@@ -112,12 +112,12 @@ namespace Newton.Validation
                             //Invokes 'Check' method and checks the rules
                             property.SetValue(
                                 model,
-                                (string[])type.InvokeMember(
-                                "Enforce",
-                                System.Reflection.BindingFlags.InvokeMethod,
-                                null,
-                                enforcableRule,
-                                new object[] { property.GetValue(model, null) }), null);
+                                type.InvokeMember(
+                                    "Enforce",
+                                    System.Reflection.BindingFlags.InvokeMethod,
+                                    null,
+                                    enforcableRule,
+                                    new[] { property.GetValue(model, null) }), null);
                         }
                     }
                 }

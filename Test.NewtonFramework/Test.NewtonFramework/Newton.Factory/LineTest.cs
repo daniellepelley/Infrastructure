@@ -491,7 +491,6 @@ namespace Newton.Factory.Test
             var dictionary = lineOpportunity.TimeSpanPareto();
 
             Assert.AreEqual(6, dictionary.Count);
-
         }
 
 
@@ -501,11 +500,10 @@ namespace Newton.Factory.Test
         {
             LineOpportunity lineOpportunity = CreateLineOpportunityFullDowntime();
             lineOpportunity.TimeSpan = new TimeSpan(1, 0, 0);
-
+            
             var dictionary = lineOpportunity.TimeSpanPareto();
 
             Assert.AreEqual(6, dictionary.Count);
-
         }
 
         [TestMethod]

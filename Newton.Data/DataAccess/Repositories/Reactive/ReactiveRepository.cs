@@ -46,40 +46,19 @@ namespace Newton.Data
 
         #endregion
 
-        #region Methods
-
-        public Task SaveAsync(T entity, Action<T> callback)
+        public async Task SaveAsync(T entity)
         {
-            return CreateTask(entity, repository.Save, callback);
+            await Task.Factory.StartNew(() => repository.Save(entity));
         }
 
-        public Task DeleteAsync(T entity, Action<T> callback)
+        public async Task DeleteAsync(T entity)
         {
-            return CreateTask(entity, repository.Delete, callback);
+            await Task.Factory.StartNew(() => repository.Delete(entity));
         }
 
-        public Task CreateAsync(T entity, Action<T> callback)
+        public async Task CreateAsync(T entity)
         {
-            return CreateTask(entity, repository.Create, callback);
+            await Task.Factory.StartNew(() => repository.Create(entity));
         }
-
-        private Task CreateTask(T entity, Action<T> action, Action<T> callback)
-        {
-            return Task.Factory.StartNew(
-                () => action(entity))
-            .ContinueWith((task) =>
-            {
-                if (task.IsCompleted)
-                {
-                    callback(entity);
-                }
-                else if (task.IsFaulted)
-                {
-                    callback(entity);
-                }
-            });
-        }
-
-        #endregion
     }
 }
